@@ -1,0 +1,37 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  generated:
+    name: Generated files are current and valid
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: astral-sh/setup-uv@v10
+
+      # Nerd Fonts and nvim-web-devicons are pinned in generate.py. No
+      # restore-keys: cached files keep their names across pins, so a partial
+      # match would silently build from the old sources.
+      - uses: actions/cache@v6
+        with:
+          path: build/.cache
+          key: upstream-${{ hashFiles('build/generate.py') }}
+
+      - name: Regenerate
+        run: uv run build/generate.py
+
+      - name: Check the committed output matches
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            git status --short
+            echo "::error::Generated files are out of date. Run 'uv run build/generate.py' and commit the result."
+            exit 1
+          fi
+
+      - name: Validate against Zed's schemas
+        run: uv run build/validate.py
