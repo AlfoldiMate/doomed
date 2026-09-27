@@ -1,0 +1,7 @@
+id = "doomchad-icons"
+name = "Doomchad Icons"
+version = "0.1.0"
+schema_version = 1
+authors = ["Mate Alfoldi <alfoldi.mate@gmail.com>"]
+description = "NvChad-style file icons (nvim-web-devicons glyphs) in the doomchad palette, dark and light."
+repository = "https://github.com/AlfoldiMate/doomzed"

@@ -1,0 +1,3979 @@
+{
+  "$schema": "https://zed.dev/schema/icon_themes/v0.3.0.json",
+  "name": "Doomchad Icons",
+  "author": "Mate Alfoldi",
+  "themes": [
+    {
+      "name": "Doomchad Icons",
+      "appearance": "dark",
+      "directory_icons": {
+        "collapsed": "./icons/dark/_folder.svg",
+        "expanded": "./icons/dark/_folder_open.svg"
+      },
+      "chevron_icons": {
+        "collapsed": "./icons/dark/_chevron_right.svg",
+        "expanded": "./icons/dark/_chevron_down.svg"
+      },
+      "file_stems": {
+        ".SRCINFO": "srcinfo",
+        ".Xauthority": "xauthority",
+        ".Xresources": "xauthority",
+        ".babelrc": "babelrc",
+        ".bash_profile": "bat",
+        ".bashrc": "bat",
+        ".clang-format": "clangconfig",
+        ".clang-tidy": "clangconfig",
+        ".clangd": "clangconfig",
+        ".codespellrc": "codespell",
+        ".condarc": "conda",
+        ".dockerignore": "dockerfile",
+        ".ds_store": "configuration",
+        ".editorconfig": "editorconfig",
+        ".env": "env",
+        ".eslintignore": "eslintignore",
+        ".eslintrc": "eslintignore",
+        ".git-blame-ignore-revs": "gitlogo",
+        ".gitattributes": "gitlogo",
+        ".gitconfig": "gitconfig",
+        ".gitignore": "gitlogo",
+        ".gitlab-ci.yml": "gitlabci",
+        ".gitmodules": "gitlogo",
+        ".gtkrc-2.0": "gtk",
+        ".gvimrc": "vim",
+        ".justfile": "justfile",
+        ".luacheckrc": "luacheckrc",
+        ".luaurc": "luacheckrc",
+        ".mailmap": "mailmap",
+        ".nanorc": "nano",
+        ".npmignore": "npmignore",
+        ".npmrc": "npmignore",
+        ".nuxtrc": "nuxtconfig",
+        ".nvmrc": "node",
+        ".pnpmfile.cjs": "pnpmfile",
+        ".pre-commit-config.yaml": "precommitconfig",
+        ".prettierignore": "prettierignore",
+        ".prettierrc": "prettierignore",
+        ".prettierrc.cjs": "prettierignore",
+        ".prettierrc.js": "prettierignore",
+        ".prettierrc.json": "prettierignore",
+        ".prettierrc.json5": "prettierignore",
+        ".prettierrc.mjs": "prettierignore",
+        ".prettierrc.toml": "prettierignore",
+        ".prettierrc.yaml": "prettierignore",
+        ".prettierrc.yml": "prettierignore",
+        ".pylintrc": "configuration",
+        ".settings.json": "sln",
+        ".vimrc": "vim",
+        ".xinitrc": "xauthority",
+        ".xsession": "xauthority",
+        ".zprofile": "bat",
+        ".zshenv": "bat",
+        ".zshrc": "bat",
+        "AUTHORS": "authors",
+        "AUTHORS.txt": "authors",
+        "BITBUCKET-PIPELINES.yml": "bitbucketpipelinesconfig",
+        "BREWFILE": "configru",
+        "BSPWMRC": "bspwm",
+        "BUILD": "bazel",
+        "BUILD.gradle": "gradle",
+        "BUILD.zig.zon": "zigobjectnotation",
+        "BUN.lock": "bunlockfile",
+        "BUN.lockb": "bunlockfile",
+        "Bitbucket-pipelines.yml": "bitbucketpipelinesconfig",
+        "Brewfile": "configru",
+        "Bspwmrc": "bspwm",
+        "Build": "bazel",
+        "Build.gradle": "gradle",
+        "Build.zig.zon": "zigobjectnotation",
+        "Bun.lock": "bunlockfile",
+        "Bun.lockb": "bunlockfile",
+        "CANTORRC": "cantorrc",
+        "CHECKHEALTH": "checkhealth",
+        "CMAKELISTS.txt": "cmake",
+        "CODE_OF_CONDUCT": "codeofconduct",
+        "CODE_OF_CONDUCT.md": "codeofconduct",
+        "COMMITLINT.config.js": "commitlintconfig",
+        "COMMITLINT.config.ts": "commitlintconfig",
+        "COMMIT_EDITMSG": "gitlogo",
+        "COMPOSE.yaml": "dockerfile",
+        "COMPOSE.yml": "dockerfile",
+        "CONFIG": "configuration",
+        "CONTAINERFILE": "dockerfile",
+        "COPYING": "license",
+        "COPYING.lesser": "license",
+        "Cantorrc": "cantorrc",
+        "Checkhealth": "checkhealth",
+        "Cmakelists.txt": "cmake",
+        "Code_of_conduct": "codeofconduct",
+        "Code_of_conduct.md": "codeofconduct",
+        "Commit_editmsg": "gitlogo",
+        "Commitlint.config.js": "commitlintconfig",
+        "Commitlint.config.ts": "commitlintconfig",
+        "Compose.yaml": "dockerfile",
+        "Compose.yml": "dockerfile",
+        "Config": "configuration",
+        "Containerfile": "dockerfile",
+        "Copying": "license",
+        "Copying.lesser": "license",
+        "DIRECTORY.Build.props": "luacheckrc",
+        "DIRECTORY.Build.targets": "luacheckrc",
+        "DIRECTORY.Packages.props": "luacheckrc",
+        "DOCKER-COMPOSE.yaml": "dockerfile",
+        "DOCKER-COMPOSE.yml": "dockerfile",
+        "DOCKERFILE": "dockerfile",
+        "DUNE": "ml",
+        "Directory.Build.props": "luacheckrc",
+        "Directory.Build.targets": "luacheckrc",
+        "Directory.Packages.props": "luacheckrc",
+        "Docker-compose.yaml": "dockerfile",
+        "Docker-compose.yml": "dockerfile",
+        "Dockerfile": "dockerfile",
+        "Dune": "ml",
+        "ESLINT.config.cjs": "eslintignore",
+        "ESLINT.config.js": "eslintignore",
+        "ESLINT.config.mjs": "eslintignore",
+        "ESLINT.config.ts": "eslintignore",
+        "EXT_TYPOSCRIPT_SETUP.txt": "typoscriptconfig",
+        "Eslint.config.cjs": "eslintignore",
+        "Eslint.config.js": "eslintignore",
+        "Eslint.config.mjs": "eslintignore",
+        "Eslint.config.ts": "eslintignore",
+        "Ext_typoscript_setup.txt": "typoscriptconfig",
+        "FAVICON.ico": "favicon",
+        "FP-INFO-CACHE": "kicad",
+        "FP-LIB-TABLE": "kicad",
+        "FREECAD.conf": "freecad",
+        "Favicon.ico": "favicon",
+        "Fp-info-cache": "kicad",
+        "Fp-lib-table": "kicad",
+        "FreeCAD.conf": "freecad",
+        "GEMFILE": "configru",
+        "GNUMAKEFILE": "makefile",
+        "GO.mod": "go",
+        "GO.sum": "go",
+        "GO.work": "go",
+        "GRADLE-WRAPPER.properties": "gradle",
+        "GRADLE.properties": "gradle",
+        "GRADLEW": "gradle",
+        "GROOVY": "groovy",
+        "GRUNTFILE.babel.js": "gruntfile",
+        "GRUNTFILE.coffee": "gruntfile",
+        "GRUNTFILE.js": "gruntfile",
+        "GRUNTFILE.ts": "gruntfile",
+        "GTKRC": "gtk",
+        "GULPFILE.babel.js": "gulpfile",
+        "GULPFILE.coffee": "gulpfile",
+        "GULPFILE.js": "gulpfile",
+        "GULPFILE.ts": "gulpfile",
+        "Gemfile": "configru",
+        "Gnumakefile": "makefile",
+        "Go.mod": "go",
+        "Go.sum": "go",
+        "Go.work": "go",
+        "Gradle-wrapper.properties": "gradle",
+        "Gradle.properties": "gradle",
+        "Gradlew": "gradle",
+        "Groovy": "groovy",
+        "Gruntfile.babel.js": "gruntfile",
+        "Gruntfile.coffee": "gruntfile",
+        "Gruntfile.js": "gruntfile",
+        "Gruntfile.ts": "gruntfile",
+        "Gtkrc": "gtk",
+        "Gulpfile.babel.js": "gulpfile",
+        "Gulpfile.coffee": "gulpfile",
+        "Gulpfile.js": "gulpfile",
+        "Gulpfile.ts": "gulpfile",
+        "HYPRIDLE.conf": "hypridle",
+        "HYPRLAND.conf": "hypridle",
+        "HYPRLANDD.conf": "hypridle",
+        "HYPRLOCK.conf": "hypridle",
+        "HYPRPAPER.conf": "hypridle",
+        "HYPRSUNSET.conf": "hypridle",
+        "Hypridle.conf": "hypridle",
+        "Hyprland.conf": "hypridle",
+        "Hyprlandd.conf": "hypridle",
+        "Hyprlock.conf": "hypridle",
+        "Hyprpaper.conf": "hypridle",
+        "Hyprsunset.conf": "hypridle",
+        "I18N.config.js": "i18nconfig",
+        "I18N.config.ts": "i18nconfig",
+        "I18n.config.js": "i18nconfig",
+        "I18n.config.ts": "i18nconfig",
+        "I3BLOCKS.conf": "i3",
+        "I3STATUS.conf": "i3",
+        "I3blocks.conf": "i3",
+        "I3status.conf": "i3",
+        "INDEX.theme": "indextheme",
+        "IONIC.config.json": "ionic",
+        "Index.theme": "indextheme",
+        "Ionic.config.json": "ionic",
+        "JENKINSFILE": "jenkins",
+        "JUSTFILE": "justfile",
+        "Jenkinsfile": "jenkins",
+        "Justfile": "justfile",
+        "KALGEBRARC": "cantorrc",
+        "KDEGLOBALS": "cantorrc",
+        "KDENLIVE-LAYOUTSRC": "kdenlive",
+        "KDENLIVERC": "kdenlive",
+        "KRITADISPLAYRC": "krita",
+        "KRITARC": "krita",
+        "Kalgebrarc": "cantorrc",
+        "Kdeglobals": "cantorrc",
+        "Kdenlive-layoutsrc": "kdenlive",
+        "Kdenliverc": "kdenlive",
+        "Kritadisplayrc": "krita",
+        "Kritarc": "krita",
+        "LICENSE": "license_2",
+        "LICENSE.md": "license_2",
+        "LXDE-RC.xml": "lxdeconfigfile",
+        "LXQT.conf": "lxqtconfigfile",
+        "License": "license_2",
+        "License.md": "license_2",
+        "Lxde-rc.xml": "lxdeconfigfile",
+        "Lxqt.conf": "lxqtconfigfile",
+        "MAKEFILE": "makefile",
+        "MIX.lock": "eex",
+        "MPV.conf": "mpv",
+        "Makefile": "makefile",
+        "Mix.lock": "eex",
+        "Mpv.conf": "mpv",
+        "NEXT.config.cjs": "nextconfigcjs",
+        "NEXT.config.js": "nextconfigcjs",
+        "NEXT.config.ts": "nextconfigcjs",
+        "NODE_MODULES": "nodemodules",
+        "NUXT.config.cjs": "nuxtconfig",
+        "NUXT.config.js": "nuxtconfig",
+        "NUXT.config.mjs": "nuxtconfig",
+        "NUXT.config.ts": "nuxtconfig",
+        "Next.config.cjs": "nextconfigcjs",
+        "Next.config.js": "nextconfigcjs",
+        "Next.config.ts": "nextconfigcjs",
+        "Node_modules": "nodemodules",
+        "Nuxt.config.cjs": "nuxtconfig",
+        "Nuxt.config.js": "nuxtconfig",
+        "Nuxt.config.mjs": "nuxtconfig",
+        "Nuxt.config.ts": "nuxtconfig",
+        "PACKAGE-LOCK.json": "npmignore",
+        "PACKAGE.json": "npmignore",
+        "PKGBUILD": "pkgbuild",
+        "PLATFORMIO.ini": "platformio",
+        "PLAYWRIGHT.config.cjs": "playwrightconfig",
+        "PLAYWRIGHT.config.cts": "playwrightconfig",
+        "PLAYWRIGHT.config.js": "playwrightconfig",
+        "PLAYWRIGHT.config.mjs": "playwrightconfig",
+        "PLAYWRIGHT.config.mts": "playwrightconfig",
+        "PLAYWRIGHT.config.ts": "playwrightconfig",
+        "PNPM-LOCK.yaml": "pnpmfile",
+        "PNPM-WORKSPACE.yaml": "pnpmfile",
+        "POM.xml": "maven",
+        "PRETTIER.config.cjs": "prettierignore",
+        "PRETTIER.config.js": "prettierignore",
+        "PRETTIER.config.mjs": "prettierignore",
+        "PRETTIER.config.ts": "prettierignore",
+        "PRISMA.config.mts": "prisma",
+        "PRISMA.config.ts": "prisma",
+        "PROCFILE": "procfile",
+        "PRUSASLICER.ini": "prusaslicer",
+        "PRUSASLICERGCODEVIEWER.ini": "prusaslicer",
+        "PY.typed": "pyc",
+        "Package-lock.json": "npmignore",
+        "Package.json": "npmignore",
+        "Platformio.ini": "platformio",
+        "Playwright.config.cjs": "playwrightconfig",
+        "Playwright.config.cts": "playwrightconfig",
+        "Playwright.config.js": "playwrightconfig",
+        "Playwright.config.mjs": "playwrightconfig",
+        "Playwright.config.mts": "playwrightconfig",
+        "Playwright.config.ts": "playwrightconfig",
+        "Pnpm-lock.yaml": "pnpmfile",
+        "Pnpm-workspace.yaml": "pnpmfile",
+        "Pom.xml": "maven",
+        "Prettier.config.cjs": "prettierignore",
+        "Prettier.config.js": "prettierignore",
+        "Prettier.config.mjs": "prettierignore",
+        "Prettier.config.ts": "prettierignore",
+        "Prisma.config.mts": "prisma",
+        "Prisma.config.ts": "prisma",
+        "Procfile": "procfile",
+        "PrusaSlicer.ini": "prusaslicer",
+        "PrusaSlicerGcodeViewer.ini": "prusaslicer",
+        "Py.typed": "pyc",
+        "QTPROJECT.conf": "qt",
+        "QtProject.conf": "qt",
+        "RAKEFILE": "configru",
+        "README": "readme",
+        "README.md": "readme",
+        "RMD": "rmd",
+        "ROBOTS.txt": "robotstxt",
+        "Rakefile": "configru",
+        "Readme": "readme",
+        "Readme.md": "readme",
+        "Rmd": "rmd",
+        "Robots.txt": "robotstxt",
+        "SECURITY": "security",
+        "SECURITY.md": "security",
+        "SETTINGS.gradle": "gradle",
+        "SVELTE.config.js": "svelte",
+        "SXHKDRC": "bspwm",
+        "SYM-LIB-TABLE": "kicad",
+        "Security": "security",
+        "Security.md": "security",
+        "Settings.gradle": "gradle",
+        "Svelte.config.js": "svelte",
+        "Sxhkdrc": "bspwm",
+        "Sym-lib-table": "kicad",
+        "TAILWIND.config.js": "tailwindconfig",
+        "TAILWIND.config.mjs": "tailwindconfig",
+        "TAILWIND.config.ts": "tailwindconfig",
+        "TASKFILE.dist.yaml": "taskfileconfig",
+        "TASKFILE.dist.yml": "taskfileconfig",
+        "TASKFILE.yaml": "taskfileconfig",
+        "TASKFILE.yml": "taskfileconfig",
+        "TMUX.conf": "tmux",
+        "TMUX.conf.local": "tmux",
+        "TSCONFIG.json": "tsconfig",
+        "Tailwind.config.js": "tailwindconfig",
+        "Tailwind.config.mjs": "tailwindconfig",
+        "Tailwind.config.ts": "tailwindconfig",
+        "Taskfile.dist.yaml": "taskfileconfig",
+        "Taskfile.dist.yml": "taskfileconfig",
+        "Taskfile.yaml": "taskfileconfig",
+        "Taskfile.yml": "taskfileconfig",
+        "Tmux.conf": "tmux",
+        "Tmux.conf.local": "tmux",
+        "Tsconfig.json": "tsconfig",
+        "UNLICENSE": "license_2",
+        "Unlicense": "license_2",
+        "VAGRANTFILE": "vagrantfile",
+        "VERCEL.json": "vercel",
+        "VITE.config.cjs": "viteconfig",
+        "VITE.config.cts": "viteconfig",
+        "VITE.config.js": "viteconfig",
+        "VITE.config.mjs": "viteconfig",
+        "VITE.config.mts": "viteconfig",
+        "VITE.config.ts": "viteconfig",
+        "VITEST.config.cjs": "vitestconfig",
+        "VITEST.config.cts": "vitestconfig",
+        "VITEST.config.js": "vitestconfig",
+        "VITEST.config.mjs": "vitestconfig",
+        "VITEST.config.mts": "vitestconfig",
+        "VITEST.config.ts": "vitestconfig",
+        "VLCRC": "vlc",
+        "Vagrantfile": "vagrantfile",
+        "Vercel.json": "vercel",
+        "Vite.config.cjs": "viteconfig",
+        "Vite.config.cts": "viteconfig",
+        "Vite.config.js": "viteconfig",
+        "Vite.config.mjs": "viteconfig",
+        "Vite.config.mts": "viteconfig",
+        "Vite.config.ts": "viteconfig",
+        "Vitest.config.cjs": "vitestconfig",
+        "Vitest.config.cts": "vitestconfig",
+        "Vitest.config.js": "vitestconfig",
+        "Vitest.config.mjs": "vitestconfig",
+        "Vitest.config.mts": "vitestconfig",
+        "Vitest.config.ts": "vitestconfig",
+        "Vlcrc": "vlc",
+        "WEBPACK": "webpack",
+        "WESTON.ini": "weston",
+        "WORKSPACE": "bazel",
+        "WRANGLER.jsonc": "wranglerconfig",
+        "WRANGLER.toml": "wranglerconfig",
+        "Webpack": "webpack",
+        "Weston.ini": "weston",
+        "Workspace": "bazel",
+        "Wrangler.jsonc": "wranglerconfig",
+        "Wrangler.toml": "wranglerconfig",
+        "XDPH.conf": "hypridle",
+        "XMOBARRC": "xmonad",
+        "XMOBARRC.hs": "xmonad",
+        "XMONAD.hs": "xmonad",
+        "XORG.conf": "xauthority",
+        "XSETTINGSD.conf": "xauthority",
+        "Xdph.conf": "hypridle",
+        "Xmobarrc": "xmonad",
+        "Xmobarrc.hs": "xmonad",
+        "Xmonad.hs": "xmonad",
+        "Xorg.conf": "xauthority",
+        "Xsettingsd.conf": "xauthority",
+        "_GVIMRC": "vim",
+        "_VIMRC": "vim",
+        "_gvimrc": "vim",
+        "_vimrc": "vim",
+        "bitbucket-pipelines.yml": "bitbucketpipelinesconfig",
+        "brewfile": "configru",
+        "bspwmrc": "bspwm",
+        "build": "bazel",
+        "build.gradle": "gradle",
+        "build.zig.zon": "zigobjectnotation",
+        "bun.lock": "bunlockfile",
+        "bun.lockb": "bunlockfile",
+        "cantorrc": "cantorrc",
+        "checkhealth": "checkhealth",
+        "cmakelists.txt": "cmake",
+        "code_of_conduct": "codeofconduct",
+        "code_of_conduct.md": "codeofconduct",
+        "commit_editmsg": "gitlogo",
+        "commitlint.config.js": "commitlintconfig",
+        "commitlint.config.ts": "commitlintconfig",
+        "compose.yaml": "dockerfile",
+        "compose.yml": "dockerfile",
+        "config": "configuration",
+        "containerfile": "dockerfile",
+        "copying": "license",
+        "copying.lesser": "license",
+        "docker-compose.yaml": "dockerfile",
+        "docker-compose.yml": "dockerfile",
+        "dockerfile": "dockerfile",
+        "dune": "ml",
+        "eslint.config.cjs": "eslintignore",
+        "eslint.config.js": "eslintignore",
+        "eslint.config.mjs": "eslintignore",
+        "eslint.config.ts": "eslintignore",
+        "ext_typoscript_setup.txt": "typoscriptconfig",
+        "favicon.ico": "favicon",
+        "fp-info-cache": "kicad",
+        "fp-lib-table": "kicad",
+        "gnumakefile": "makefile",
+        "go.mod": "go",
+        "go.sum": "go",
+        "go.work": "go",
+        "gradle-wrapper.properties": "gradle",
+        "gradle.properties": "gradle",
+        "gradlew": "gradle",
+        "groovy": "groovy",
+        "gruntfile.babel.js": "gruntfile",
+        "gruntfile.coffee": "gruntfile",
+        "gruntfile.js": "gruntfile",
+        "gruntfile.ts": "gruntfile",
+        "gtkrc": "gtk",
+        "gulpfile.babel.js": "gulpfile",
+        "gulpfile.coffee": "gulpfile",
+        "gulpfile.js": "gulpfile",
+        "gulpfile.ts": "gulpfile",
+        "hypridle.conf": "hypridle",
+        "hyprland.conf": "hypridle",
+        "hyprlandd.conf": "hypridle",
+        "hyprlock.conf": "hypridle",
+        "hyprpaper.conf": "hypridle",
+        "hyprsunset.conf": "hypridle",
+        "i18n.config.js": "i18nconfig",
+        "i18n.config.ts": "i18nconfig",
+        "i3blocks.conf": "i3",
+        "i3status.conf": "i3",
+        "index.theme": "indextheme",
+        "ionic.config.json": "ionic",
+        "justfile": "justfile",
+        "kalgebrarc": "cantorrc",
+        "kdeglobals": "cantorrc",
+        "kdenlive-layoutsrc": "kdenlive",
+        "kdenliverc": "kdenlive",
+        "kritadisplayrc": "krita",
+        "kritarc": "krita",
+        "license": "license_2",
+        "license.md": "license_2",
+        "lxde-rc.xml": "lxdeconfigfile",
+        "lxqt.conf": "lxqtconfigfile",
+        "makefile": "makefile",
+        "mix.lock": "eex",
+        "mpv.conf": "mpv",
+        "next.config.cjs": "nextconfigcjs",
+        "next.config.js": "nextconfigcjs",
+        "next.config.ts": "nextconfigcjs",
+        "node_modules": "nodemodules",
+        "nuxt.config.cjs": "nuxtconfig",
+        "nuxt.config.js": "nuxtconfig",
+        "nuxt.config.mjs": "nuxtconfig",
+        "nuxt.config.ts": "nuxtconfig",
+        "package-lock.json": "npmignore",
+        "package.json": "npmignore",
+        "platformio.ini": "platformio",
+        "playwright.config.cjs": "playwrightconfig",
+        "playwright.config.cts": "playwrightconfig",
+        "playwright.config.js": "playwrightconfig",
+        "playwright.config.mjs": "playwrightconfig",
+        "playwright.config.mts": "playwrightconfig",
+        "playwright.config.ts": "playwrightconfig",
+        "pnpm-lock.yaml": "pnpmfile",
+        "pnpm-workspace.yaml": "pnpmfile",
+        "pom.xml": "maven",
+        "prettier.config.cjs": "prettierignore",
+        "prettier.config.js": "prettierignore",
+        "prettier.config.mjs": "prettierignore",
+        "prettier.config.ts": "prettierignore",
+        "prisma.config.mts": "prisma",
+        "prisma.config.ts": "prisma",
+        "procfile": "procfile",
+        "py.typed": "pyc",
+        "rakefile": "configru",
+        "readme": "readme",
+        "readme.md": "readme",
+        "rmd": "rmd",
+        "robots.txt": "robotstxt",
+        "security": "security",
+        "security.md": "security",
+        "settings.gradle": "gradle",
+        "svelte.config.js": "svelte",
+        "sxhkdrc": "bspwm",
+        "sym-lib-table": "kicad",
+        "tailwind.config.js": "tailwindconfig",
+        "tailwind.config.mjs": "tailwindconfig",
+        "tailwind.config.ts": "tailwindconfig",
+        "taskfile.dist.yaml": "taskfileconfig",
+        "taskfile.dist.yml": "taskfileconfig",
+        "taskfile.yaml": "taskfileconfig",
+        "taskfile.yml": "taskfileconfig",
+        "tmux.conf": "tmux",
+        "tmux.conf.local": "tmux",
+        "tsconfig.json": "tsconfig",
+        "unlicense": "license_2",
+        "vagrantfile": "vagrantfile",
+        "vercel.json": "vercel",
+        "vite.config.cjs": "viteconfig",
+        "vite.config.cts": "viteconfig",
+        "vite.config.js": "viteconfig",
+        "vite.config.mjs": "viteconfig",
+        "vite.config.mts": "viteconfig",
+        "vite.config.ts": "viteconfig",
+        "vitest.config.cjs": "vitestconfig",
+        "vitest.config.cts": "vitestconfig",
+        "vitest.config.js": "vitestconfig",
+        "vitest.config.mjs": "vitestconfig",
+        "vitest.config.mts": "vitestconfig",
+        "vitest.config.ts": "vitestconfig",
+        "vlcrc": "vlc",
+        "webpack": "webpack",
+        "weston.ini": "weston",
+        "workspace": "bazel",
+        "wrangler.jsonc": "wranglerconfig",
+        "wrangler.toml": "wranglerconfig",
+        "xdph.conf": "hypridle",
+        "xmobarrc": "xmonad",
+        "xmobarrc.hs": "xmonad",
+        "xmonad.hs": "xmonad",
+        "xorg.conf": "xauthority",
+        "xsettingsd.conf": "xauthority"
+      },
+      "file_suffixes": {
+        "3gp": "3gp",
+        "3mf": "3dobjectfile",
+        "7z": "7z",
+        "Dockerfile": "dockerfile",
+        "R": "r",
+        "a": "staticlibraryarchive",
+        "aac": "advancedaudiocoding",
+        "ada": "adafile",
+        "adb": "adafile",
+        "ads": "adaspecification",
+        "ai": "ai",
+        "aif": "advancedaudiocoding",
+        "aiff": "advancedaudiocoding",
+        "android": "android",
+        "ape": "advancedaudiocoding",
+        "apk": "android",
+        "apl": "apl",
+        "app": "app",
+        "applescript": "applescript",
+        "asc": "asc",
+        "asm": "asm",
+        "asmdef": "asmdef",
+        "ass": "ass",
+        "astro": "astro",
+        "avi": "3gp",
+        "avif": "avif",
+        "awk": "awk",
+        "azcli": "azurecli",
+        "bak": "backup",
+        "bash": "bash",
+        "bat": "bat",
+        "bazel": "bazel",
+        "bib": "bibtex",
+        "bicep": "bicep",
+        "bicepparam": "bicepparameters",
+        "bin": "app",
+        "blade.php": "blade",
+        "blend": "blender",
+        "blp": "blueprint",
+        "bmp": "avif",
+        "bqn": "apl",
+        "brep": "boundaryrepresentation",
+        "bz": "7z",
+        "bz2": "7z",
+        "bz3": "7z",
+        "bzl": "bazel",
+        "c": "c",
+        "c++": "cplusplus",
+        "cache": "cache",
+        "cast": "3gp",
+        "cbl": "cobol",
+        "cc": "cplusplus",
+        "ccm": "cplusplus",
+        "cfc": "coldfusionscript",
+        "cfg": "configuration",
+        "cfm": "coldfusionscript",
+        "cjs": "cjs",
+        "clj": "clojure",
+        "cljc": "clojure",
+        "cljd": "clojuredart",
+        "cljs": "clojuredart",
+        "cmake": "cmake",
+        "cob": "cobol",
+        "cobol": "cobol",
+        "coffee": "coffee",
+        "conda": "conda",
+        "conf": "configuration",
+        "config.ru": "configru",
+        "cow": "cowsayfile",
+        "cp": "cp",
+        "cpp": "cp",
+        "cppm": "cp",
+        "cpy": "cobol",
+        "cr": "crystal",
+        "crdownload": "crdownload",
+        "cs": "cs",
+        "csh": "awk",
+        "cshtml": "razorpage",
+        "cson": "cson",
+        "csproj": "csharpproject",
+        "css": "css",
+        "csv": "csv",
+        "cts": "cts",
+        "cu": "cuda",
+        "cue": "cue",
+        "cuh": "cudah",
+        "cxx": "cp",
+        "cxxm": "cp",
+        "d": "d",
+        "d.ts": "typescriptdeclaration",
+        "dart": "dart",
+        "db": "db",
+        "dconf": "dconf",
+        "desktop": "desktopentry",
+        "diff": "diff",
+        "dll": "dll",
+        "doc": "doc",
+        "dockerignore": "dockerignore",
+        "docx": "doc",
+        "dot": "dot",
+        "download": "crdownload",
+        "drl": "drools",
+        "dropbox": "dropbox",
+        "dump": "db",
+        "dwg": "boundaryrepresentation",
+        "dxf": "boundaryrepresentation",
+        "ebook": "ebook",
+        "ebuild": "gentoobuild",
+        "edn": "clojuredart",
+        "eex": "eex",
+        "ejs": "ejs",
+        "el": "elisp",
+        "elc": "elisp",
+        "elf": "app",
+        "elm": "elm",
+        "eln": "elisp",
+        "env": "env",
+        "eot": "embeddedopentypefont",
+        "epp": "epp",
+        "epub": "ebook",
+        "erb": "erb",
+        "erl": "erl",
+        "ex": "eex",
+        "exe": "app",
+        "exs": "eex",
+        "f#": "fsharp",
+        "f3d": "boundaryrepresentation",
+        "f90": "fortran",
+        "fbx": "3dobjectfile",
+        "fcbak": "freecad",
+        "fcmacro": "freecad",
+        "fcmat": "freecad",
+        "fcparam": "freecad",
+        "fcscript": "freecad",
+        "fcstd": "freecad",
+        "fcstd1": "freecad",
+        "fctb": "freecad",
+        "fctl": "freecad",
+        "fdmdownload": "crdownload",
+        "feature": "feature",
+        "fish": "awk",
+        "flac": "freelosslessaudiocodec",
+        "flc": "embeddedopentypefont",
+        "flf": "embeddedopentypefont",
+        "fnl": "fennel",
+        "fodg": "libreofficegraphics",
+        "fodp": "libreofficeimpress",
+        "fods": "libreofficecalc",
+        "fodt": "libreofficewriter",
+        "frag": "fragmentshader",
+        "fs": "fsharp",
+        "fsi": "fsharp",
+        "fsscript": "fsharp",
+        "fsx": "fsharp",
+        "gcode": "gcode",
+        "gd": "gdscript",
+        "gemspec": "configru",
+        "geom": "fragmentshader",
+        "gif": "avif",
+        "git": "gitlogo",
+        "glb": "binarygltf",
+        "gleam": "gleam",
+        "glsl": "fragmentshader",
+        "gnumakefile": "makefile",
+        "go": "go",
+        "godot": "gdscript",
+        "gpr": "gprbuildproject",
+        "gql": "graphql",
+        "gradle": "gradle",
+        "graphql": "graphql",
+        "gresource": "gtk",
+        "gv": "dot",
+        "gz": "7z",
+        "h": "h",
+        "haml": "haml",
+        "hbs": "hbs",
+        "heex": "eex",
+        "heic": "avif",
+        "hex": "hexadecimal",
+        "hh": "h",
+        "hpp": "h",
+        "hrl": "erl",
+        "hs": "hs",
+        "htm": "erb",
+        "html": "html",
+        "http": "http",
+        "huff": "huff",
+        "hurl": "hurl",
+        "hx": "haxe",
+        "hxx": "h",
+        "ical": "ical",
+        "icalendar": "ical",
+        "ico": "ico",
+        "ics": "ical",
+        "ifb": "ical",
+        "ifc": "boundaryrepresentation",
+        "ige": "boundaryrepresentation",
+        "iges": "boundaryrepresentation",
+        "igs": "boundaryrepresentation",
+        "image": "image",
+        "img": "image",
+        "import": "importconfiguration",
+        "info": "info",
+        "ini": "configuration",
+        "ino": "arduino",
+        "ipynb": "notebook",
+        "iso": "image",
+        "ixx": "cp",
+        "jar": "jar",
+        "java": "jar",
+        "jl": "jl",
+        "jpeg": "avif",
+        "jpg": "avif",
+        "js": "js",
+        "json": "cson",
+        "json5": "cson",
+        "jsonc": "cson",
+        "jsonl": "cson",
+        "jsx": "jsx",
+        "jwmrc": "jwm",
+        "jxl": "avif",
+        "kbx": "kbx",
+        "kdb": "kdb",
+        "kdbx": "kdb",
+        "kdenlive": "kdenlive",
+        "kdenlivetitle": "kdenlive",
+        "kicad_dru": "kicad",
+        "kicad_mod": "kicad",
+        "kicad_pcb": "kicad",
+        "kicad_prl": "kicad",
+        "kicad_pro": "kicad",
+        "kicad_sch": "kicad",
+        "kicad_sym": "kicad",
+        "kicad_wks": "kicad",
+        "ko": "linuxkernelobject",
+        "kpp": "krita",
+        "kra": "krita",
+        "krz": "krita",
+        "ksh": "awk",
+        "kt": "kotlin",
+        "kts": "kotlinscript",
+        "lck": "lock",
+        "leex": "eex",
+        "less": "less",
+        "lff": "embeddedopentypefont",
+        "lhs": "hs",
+        "lib": "dll",
+        "license": "license",
+        "liquid": "liquid",
+        "lock": "lock",
+        "log": "log",
+        "lrc": "ass",
+        "lua": "lua",
+        "luac": "lua",
+        "luau": "luau",
+        "m": "objectivec",
+        "m3u": "cue",
+        "m3u8": "cue",
+        "m4a": "advancedaudiocoding",
+        "m4v": "3gp",
+        "magnet": "magnet",
+        "makefile": "makefile",
+        "markdown": "markdown",
+        "material": "material",
+        "md": "md",
+        "md5": "md5",
+        "mdx": "mdx",
+        "mint": "mint",
+        "mjs": "js",
+        "mk": "makefile",
+        "mkv": "3gp",
+        "ml": "ml",
+        "mli": "ml",
+        "mm": "cp",
+        "mo": "motoko",
+        "mobi": "ebook",
+        "mojo": "mojo",
+        "mov": "3gp",
+        "mp3": "mpegaudiolayeriii",
+        "mp4": "mp4",
+        "mpp": "cp",
+        "msf": "thunderbird",
+        "mts": "cts",
+        "mustache": "hbs",
+        "nfo": "info",
+        "nim": "nim",
+        "nix": "nix",
+        "norg": "norg",
+        "nswag": "cson",
+        "nu": "nushell",
+        "o": "app",
+        "obj": "3dobjectfile",
+        "odf": "libreofficeformula",
+        "odg": "libreofficegraphics",
+        "odin": "odin",
+        "odp": "libreofficeimpress",
+        "ods": "libreofficecalc",
+        "odt": "libreofficewriter",
+        "oga": "freelosslessaudiocodec",
+        "ogg": "freelosslessaudiocodec",
+        "ogv": "3gp",
+        "ogx": "3gp",
+        "opus": "freelosslessaudiocodec",
+        "org": "orgmode",
+        "otf": "embeddedopentypefont",
+        "out": "out",
+        "part": "crdownload",
+        "patch": "diff",
+        "pck": "packedresource",
+        "pcm": "freelosslessaudiocodec",
+        "pdf": "pdf",
+        "php": "php",
+        "pl": "pl",
+        "pls": "cue",
+        "ply": "3dobjectfile",
+        "pm": "pl",
+        "png": "avif",
+        "po": "localization",
+        "pot": "localization",
+        "pp": "epp",
+        "ppt": "ppt",
+        "pptx": "ppt",
+        "prefab": "prefab",
+        "prisma": "prisma",
+        "pro": "prolog",
+        "ps1": "psscriptfile",
+        "psb": "psb",
+        "psd": "psb",
+        "psd1": "psscriptfile",
+        "psm1": "psscriptfile",
+        "pub": "pub",
+        "pxd": "pxd",
+        "pxi": "pxd",
+        "py": "py",
+        "pyc": "pyc",
+        "pyd": "pyc",
+        "pyi": "pyc",
+        "pyo": "pyc",
+        "pyw": "pxd",
+        "pyx": "pxd",
+        "qm": "localization",
+        "qml": "qt",
+        "qrc": "qt",
+        "qss": "qt",
+        "query": "query",
+        "r": "r",
+        "rake": "configru",
+        "rar": "7z",
+        "rasi": "rasi",
+        "razor": "razorpage_2",
+        "rb": "rb",
+        "res": "rescript",
+        "resi": "rescriptinterface",
+        "rkt": "racket",
+        "rlib": "rlib",
+        "rmd": "rmd",
+        "rproj": "rproj",
+        "rs": "rs",
+        "rss": "rss",
+        "s": "asm",
+        "sass": "sass",
+        "sbt": "sbt",
+        "sc": "sbt",
+        "scad": "openscad",
+        "scala": "sbt",
+        "scm": "scheme",
+        "scss": "sass",
+        "sh": "awk",
+        "sha1": "md5",
+        "sha224": "md5",
+        "sha256": "md5",
+        "sha384": "md5",
+        "sha512": "md5",
+        "sig": "sig",
+        "signature": "sig",
+        "skp": "boundaryrepresentation",
+        "sldasm": "boundaryrepresentation",
+        "sldprt": "boundaryrepresentation",
+        "slim": "erb",
+        "sln": "sln",
+        "slnx": "sln",
+        "slvs": "boundaryrepresentation",
+        "sml": "sig",
+        "so": "staticlibraryarchive",
+        "sol": "solidity",
+        "spec.js": "specjs",
+        "spec.jsx": "javascriptreactspec",
+        "spec.ts": "spects",
+        "spec.tsx": "spects",
+        "spx": "freelosslessaudiocodec",
+        "sql": "db",
+        "sqlite": "db",
+        "sqlite3": "db",
+        "srt": "ass",
+        "ssa": "ass",
+        "ste": "boundaryrepresentation",
+        "step": "boundaryrepresentation",
+        "stl": "3dobjectfile",
+        "stories.js": "storybookjavascript",
+        "stories.jsx": "storybookjavascript",
+        "stories.mjs": "storybookjavascript",
+        "stories.svelte": "storybookjavascript",
+        "stories.ts": "storybookjavascript",
+        "stories.tsx": "storybookjavascript",
+        "stories.vue": "storybookjavascript",
+        "stp": "boundaryrepresentation",
+        "strings": "localization",
+        "styl": "styl",
+        "sub": "ass",
+        "sublime": "sublime",
+        "suo": "sln",
+        "sv": "systemverilog",
+        "svelte": "svelte",
+        "svg": "svg",
+        "svgz": "svg",
+        "svh": "systemverilog",
+        "svx": "svelte",
+        "swift": "swift",
+        "t": "pl",
+        "tbc": "tcl",
+        "tcl": "tcl",
+        "templ": "templ",
+        "terminal": "terminal",
+        "test.js": "specjs",
+        "test.jsx": "javascriptreactspec",
+        "test.ts": "spects",
+        "test.tsx": "spects",
+        "tex": "tex",
+        "tf": "terraform",
+        "tfvars": "tfvars",
+        "tgz": "7z",
+        "tmpl": "templ",
+        "tmux": "tmux",
+        "toml": "toml",
+        "torrent": "crdownload",
+        "tres": "gdscript",
+        "ts": "typescript",
+        "tscn": "gdscript",
+        "tsconfig": "typoscriptconfig",
+        "tsx": "tsx",
+        "ttf": "embeddedopentypefont",
+        "twig": "twig",
+        "txt": "txt",
+        "txz": "7z",
+        "typ": "typst",
+        "typoscript": "typoscriptconfig",
+        "ui": "ui",
+        "unity": "unity",
+        "v": "systemverilog",
+        "vala": "vala",
+        "vert": "fragmentshader",
+        "vh": "systemverilog",
+        "vhd": "systemverilog",
+        "vhdl": "systemverilog",
+        "vi": "labview",
+        "vim": "vim",
+        "vsh": "vlang",
+        "vsix": "sln",
+        "vue": "vue",
+        "wasm": "wasm",
+        "wav": "advancedaudiocoding",
+        "webm": "3gp",
+        "webmanifest": "webmanifest",
+        "webp": "avif",
+        "webpack": "webpack",
+        "wgsl": "webgpushadinglanguage",
+        "wma": "advancedaudiocoding",
+        "wmv": "3gp",
+        "woff": "embeddedopentypefont",
+        "woff2": "embeddedopentypefont",
+        "wrl": "3dobjectfile",
+        "wrz": "3dobjectfile",
+        "wv": "advancedaudiocoding",
+        "wvc": "advancedaudiocoding",
+        "x": "logos",
+        "xaml": "xaml",
+        "xcf": "gimp",
+        "xcplayground": "swift",
+        "xcstrings": "localization",
+        "xls": "xls",
+        "xlsx": "xls",
+        "xm": "logos",
+        "xml": "xml",
+        "xpi": "xpi",
+        "xslt": "xslt",
+        "xul": "xul",
+        "xz": "xz",
+        "yaml": "yaml",
+        "yml": "yaml",
+        "zig": "zig",
+        "zip": "xz",
+        "zsh": "zsh",
+        "zst": "7z",
+        "🔥": "mojo"
+      },
+      "file_icons": {
+        "default": {
+          "path": "./icons/dark/_default.svg"
+        },
+        "3dobjectfile": {
+          "path": "./icons/dark/3dobjectfile.svg"
+        },
+        "3gp": {
+          "path": "./icons/dark/3gp.svg"
+        },
+        "7z": {
+          "path": "./icons/dark/7z.svg"
+        },
+        "adafile": {
+          "path": "./icons/dark/adafile.svg"
+        },
+        "adaspecification": {
+          "path": "./icons/dark/adaspecification.svg"
+        },
+        "advancedaudiocoding": {
+          "path": "./icons/dark/advancedaudiocoding.svg"
+        },
+        "ai": {
+          "path": "./icons/dark/ai.svg"
+        },
+        "android": {
+          "path": "./icons/dark/android.svg"
+        },
+        "apl": {
+          "path": "./icons/dark/apl.svg"
+        },
+        "app": {
+          "path": "./icons/dark/app.svg"
+        },
+        "applescript": {
+          "path": "./icons/dark/applescript.svg"
+        },
+        "arduino": {
+          "path": "./icons/dark/arduino.svg"
+        },
+        "asc": {
+          "path": "./icons/dark/asc.svg"
+        },
+        "asm": {
+          "path": "./icons/dark/asm.svg"
+        },
+        "asmdef": {
+          "path": "./icons/dark/asmdef.svg"
+        },
+        "ass": {
+          "path": "./icons/dark/ass.svg"
+        },
+        "astro": {
+          "path": "./icons/dark/astro.svg"
+        },
+        "authors": {
+          "path": "./icons/dark/authors.svg"
+        },
+        "avif": {
+          "path": "./icons/dark/avif.svg"
+        },
+        "awk": {
+          "path": "./icons/dark/awk.svg"
+        },
+        "azurecli": {
+          "path": "./icons/dark/azurecli.svg"
+        },
+        "babelrc": {
+          "path": "./icons/dark/babelrc.svg"
+        },
+        "backup": {
+          "path": "./icons/dark/backup.svg"
+        },
+        "bash": {
+          "path": "./icons/dark/bash.svg"
+        },
+        "bat": {
+          "path": "./icons/dark/bat.svg"
+        },
+        "bazel": {
+          "path": "./icons/dark/bazel.svg"
+        },
+        "bibtex": {
+          "path": "./icons/dark/bibtex.svg"
+        },
+        "bicep": {
+          "path": "./icons/dark/bicep.svg"
+        },
+        "bicepparameters": {
+          "path": "./icons/dark/bicepparameters.svg"
+        },
+        "binarygltf": {
+          "path": "./icons/dark/binarygltf.svg"
+        },
+        "bitbucketpipelinesconfig": {
+          "path": "./icons/dark/bitbucketpipelinesconfig.svg"
+        },
+        "blade": {
+          "path": "./icons/dark/blade.svg"
+        },
+        "blender": {
+          "path": "./icons/dark/blender.svg"
+        },
+        "blueprint": {
+          "path": "./icons/dark/blueprint.svg"
+        },
+        "boundaryrepresentation": {
+          "path": "./icons/dark/boundaryrepresentation.svg"
+        },
+        "bspwm": {
+          "path": "./icons/dark/bspwm.svg"
+        },
+        "bunlockfile": {
+          "path": "./icons/dark/bunlockfile.svg"
+        },
+        "c": {
+          "path": "./icons/dark/c.svg"
+        },
+        "cache": {
+          "path": "./icons/dark/cache.svg"
+        },
+        "cantorrc": {
+          "path": "./icons/dark/cantorrc.svg"
+        },
+        "checkhealth": {
+          "path": "./icons/dark/checkhealth.svg"
+        },
+        "cjs": {
+          "path": "./icons/dark/cjs.svg"
+        },
+        "clangconfig": {
+          "path": "./icons/dark/clangconfig.svg"
+        },
+        "clojure": {
+          "path": "./icons/dark/clojure.svg"
+        },
+        "clojuredart": {
+          "path": "./icons/dark/clojuredart.svg"
+        },
+        "cmake": {
+          "path": "./icons/dark/cmake.svg"
+        },
+        "cobol": {
+          "path": "./icons/dark/cobol.svg"
+        },
+        "codeofconduct": {
+          "path": "./icons/dark/codeofconduct.svg"
+        },
+        "codespell": {
+          "path": "./icons/dark/codespell.svg"
+        },
+        "coffee": {
+          "path": "./icons/dark/coffee.svg"
+        },
+        "coldfusionscript": {
+          "path": "./icons/dark/coldfusionscript.svg"
+        },
+        "commitlintconfig": {
+          "path": "./icons/dark/commitlintconfig.svg"
+        },
+        "conda": {
+          "path": "./icons/dark/conda.svg"
+        },
+        "configru": {
+          "path": "./icons/dark/configru.svg"
+        },
+        "configuration": {
+          "path": "./icons/dark/configuration.svg"
+        },
+        "cowsayfile": {
+          "path": "./icons/dark/cowsayfile.svg"
+        },
+        "cp": {
+          "path": "./icons/dark/cp.svg"
+        },
+        "cplusplus": {
+          "path": "./icons/dark/cplusplus.svg"
+        },
+        "crdownload": {
+          "path": "./icons/dark/crdownload.svg"
+        },
+        "crystal": {
+          "path": "./icons/dark/crystal.svg"
+        },
+        "cs": {
+          "path": "./icons/dark/cs.svg"
+        },
+        "csharpproject": {
+          "path": "./icons/dark/csharpproject.svg"
+        },
+        "cson": {
+          "path": "./icons/dark/cson.svg"
+        },
+        "css": {
+          "path": "./icons/dark/css.svg"
+        },
+        "csv": {
+          "path": "./icons/dark/csv.svg"
+        },
+        "cts": {
+          "path": "./icons/dark/cts.svg"
+        },
+        "cuda": {
+          "path": "./icons/dark/cuda.svg"
+        },
+        "cudah": {
+          "path": "./icons/dark/cudah.svg"
+        },
+        "cue": {
+          "path": "./icons/dark/cue.svg"
+        },
+        "d": {
+          "path": "./icons/dark/d.svg"
+        },
+        "dart": {
+          "path": "./icons/dark/dart.svg"
+        },
+        "db": {
+          "path": "./icons/dark/db.svg"
+        },
+        "dconf": {
+          "path": "./icons/dark/dconf.svg"
+        },
+        "desktopentry": {
+          "path": "./icons/dark/desktopentry.svg"
+        },
+        "diff": {
+          "path": "./icons/dark/diff.svg"
+        },
+        "dll": {
+          "path": "./icons/dark/dll.svg"
+        },
+        "doc": {
+          "path": "./icons/dark/doc.svg"
+        },
+        "dockerfile": {
+          "path": "./icons/dark/dockerfile.svg"
+        },
+        "dockerignore": {
+          "path": "./icons/dark/dockerignore.svg"
+        },
+        "dot": {
+          "path": "./icons/dark/dot.svg"
+        },
+        "drools": {
+          "path": "./icons/dark/drools.svg"
+        },
+        "dropbox": {
+          "path": "./icons/dark/dropbox.svg"
+        },
+        "ebook": {
+          "path": "./icons/dark/ebook.svg"
+        },
+        "editorconfig": {
+          "path": "./icons/dark/editorconfig.svg"
+        },
+        "eex": {
+          "path": "./icons/dark/eex.svg"
+        },
+        "ejs": {
+          "path": "./icons/dark/ejs.svg"
+        },
+        "elisp": {
+          "path": "./icons/dark/elisp.svg"
+        },
+        "elm": {
+          "path": "./icons/dark/elm.svg"
+        },
+        "embeddedopentypefont": {
+          "path": "./icons/dark/embeddedopentypefont.svg"
+        },
+        "env": {
+          "path": "./icons/dark/env.svg"
+        },
+        "epp": {
+          "path": "./icons/dark/epp.svg"
+        },
+        "erb": {
+          "path": "./icons/dark/erb.svg"
+        },
+        "erl": {
+          "path": "./icons/dark/erl.svg"
+        },
+        "eslintignore": {
+          "path": "./icons/dark/eslintignore.svg"
+        },
+        "favicon": {
+          "path": "./icons/dark/favicon.svg"
+        },
+        "feature": {
+          "path": "./icons/dark/feature.svg"
+        },
+        "fennel": {
+          "path": "./icons/dark/fennel.svg"
+        },
+        "fortran": {
+          "path": "./icons/dark/fortran.svg"
+        },
+        "fragmentshader": {
+          "path": "./icons/dark/fragmentshader.svg"
+        },
+        "freecad": {
+          "path": "./icons/dark/freecad.svg"
+        },
+        "freelosslessaudiocodec": {
+          "path": "./icons/dark/freelosslessaudiocodec.svg"
+        },
+        "fsharp": {
+          "path": "./icons/dark/fsharp.svg"
+        },
+        "gcode": {
+          "path": "./icons/dark/gcode.svg"
+        },
+        "gdscript": {
+          "path": "./icons/dark/gdscript.svg"
+        },
+        "gentoobuild": {
+          "path": "./icons/dark/gentoobuild.svg"
+        },
+        "gimp": {
+          "path": "./icons/dark/gimp.svg"
+        },
+        "gitconfig": {
+          "path": "./icons/dark/gitconfig.svg"
+        },
+        "gitlabci": {
+          "path": "./icons/dark/gitlabci.svg"
+        },
+        "gitlogo": {
+          "path": "./icons/dark/gitlogo.svg"
+        },
+        "gleam": {
+          "path": "./icons/dark/gleam.svg"
+        },
+        "go": {
+          "path": "./icons/dark/go.svg"
+        },
+        "gprbuildproject": {
+          "path": "./icons/dark/gprbuildproject.svg"
+        },
+        "gradle": {
+          "path": "./icons/dark/gradle.svg"
+        },
+        "graphql": {
+          "path": "./icons/dark/graphql.svg"
+        },
+        "groovy": {
+          "path": "./icons/dark/groovy.svg"
+        },
+        "gruntfile": {
+          "path": "./icons/dark/gruntfile.svg"
+        },
+        "gtk": {
+          "path": "./icons/dark/gtk.svg"
+        },
+        "gulpfile": {
+          "path": "./icons/dark/gulpfile.svg"
+        },
+        "h": {
+          "path": "./icons/dark/h.svg"
+        },
+        "haml": {
+          "path": "./icons/dark/haml.svg"
+        },
+        "haxe": {
+          "path": "./icons/dark/haxe.svg"
+        },
+        "hbs": {
+          "path": "./icons/dark/hbs.svg"
+        },
+        "hexadecimal": {
+          "path": "./icons/dark/hexadecimal.svg"
+        },
+        "hs": {
+          "path": "./icons/dark/hs.svg"
+        },
+        "html": {
+          "path": "./icons/dark/html.svg"
+        },
+        "http": {
+          "path": "./icons/dark/http.svg"
+        },
+        "huff": {
+          "path": "./icons/dark/huff.svg"
+        },
+        "hurl": {
+          "path": "./icons/dark/hurl.svg"
+        },
+        "hypridle": {
+          "path": "./icons/dark/hypridle.svg"
+        },
+        "i18nconfig": {
+          "path": "./icons/dark/i18nconfig.svg"
+        },
+        "i3": {
+          "path": "./icons/dark/i3.svg"
+        },
+        "ical": {
+          "path": "./icons/dark/ical.svg"
+        },
+        "ico": {
+          "path": "./icons/dark/ico.svg"
+        },
+        "image": {
+          "path": "./icons/dark/image.svg"
+        },
+        "importconfiguration": {
+          "path": "./icons/dark/importconfiguration.svg"
+        },
+        "indextheme": {
+          "path": "./icons/dark/indextheme.svg"
+        },
+        "info": {
+          "path": "./icons/dark/info.svg"
+        },
+        "ionic": {
+          "path": "./icons/dark/ionic.svg"
+        },
+        "jar": {
+          "path": "./icons/dark/jar.svg"
+        },
+        "javascriptreactspec": {
+          "path": "./icons/dark/javascriptreactspec.svg"
+        },
+        "jenkins": {
+          "path": "./icons/dark/jenkins.svg"
+        },
+        "jl": {
+          "path": "./icons/dark/jl.svg"
+        },
+        "js": {
+          "path": "./icons/dark/js.svg"
+        },
+        "jsx": {
+          "path": "./icons/dark/jsx.svg"
+        },
+        "justfile": {
+          "path": "./icons/dark/justfile.svg"
+        },
+        "jwm": {
+          "path": "./icons/dark/jwm.svg"
+        },
+        "kbx": {
+          "path": "./icons/dark/kbx.svg"
+        },
+        "kdb": {
+          "path": "./icons/dark/kdb.svg"
+        },
+        "kdenlive": {
+          "path": "./icons/dark/kdenlive.svg"
+        },
+        "kicad": {
+          "path": "./icons/dark/kicad.svg"
+        },
+        "kotlin": {
+          "path": "./icons/dark/kotlin.svg"
+        },
+        "kotlinscript": {
+          "path": "./icons/dark/kotlinscript.svg"
+        },
+        "krita": {
+          "path": "./icons/dark/krita.svg"
+        },
+        "labview": {
+          "path": "./icons/dark/labview.svg"
+        },
+        "less": {
+          "path": "./icons/dark/less.svg"
+        },
+        "libreofficecalc": {
+          "path": "./icons/dark/libreofficecalc.svg"
+        },
+        "libreofficeformula": {
+          "path": "./icons/dark/libreofficeformula.svg"
+        },
+        "libreofficegraphics": {
+          "path": "./icons/dark/libreofficegraphics.svg"
+        },
+        "libreofficeimpress": {
+          "path": "./icons/dark/libreofficeimpress.svg"
+        },
+        "libreofficewriter": {
+          "path": "./icons/dark/libreofficewriter.svg"
+        },
+        "license": {
+          "path": "./icons/dark/license.svg"
+        },
+        "license_2": {
+          "path": "./icons/dark/license_2.svg"
+        },
+        "linuxkernelobject": {
+          "path": "./icons/dark/linuxkernelobject.svg"
+        },
+        "liquid": {
+          "path": "./icons/dark/liquid.svg"
+        },
+        "localization": {
+          "path": "./icons/dark/localization.svg"
+        },
+        "lock": {
+          "path": "./icons/dark/lock.svg"
+        },
+        "log": {
+          "path": "./icons/dark/log.svg"
+        },
+        "logos": {
+          "path": "./icons/dark/logos.svg"
+        },
+        "lua": {
+          "path": "./icons/dark/lua.svg"
+        },
+        "luacheckrc": {
+          "path": "./icons/dark/luacheckrc.svg"
+        },
+        "luau": {
+          "path": "./icons/dark/luau.svg"
+        },
+        "lxdeconfigfile": {
+          "path": "./icons/dark/lxdeconfigfile.svg"
+        },
+        "lxqtconfigfile": {
+          "path": "./icons/dark/lxqtconfigfile.svg"
+        },
+        "magnet": {
+          "path": "./icons/dark/magnet.svg"
+        },
+        "mailmap": {
+          "path": "./icons/dark/mailmap.svg"
+        },
+        "makefile": {
+          "path": "./icons/dark/makefile.svg"
+        },
+        "markdown": {
+          "path": "./icons/dark/markdown.svg"
+        },
+        "material": {
+          "path": "./icons/dark/material.svg"
+        },
+        "maven": {
+          "path": "./icons/dark/maven.svg"
+        },
+        "md": {
+          "path": "./icons/dark/md.svg"
+        },
+        "md5": {
+          "path": "./icons/dark/md5.svg"
+        },
+        "mdx": {
+          "path": "./icons/dark/mdx.svg"
+        },
+        "mint": {
+          "path": "./icons/dark/mint.svg"
+        },
+        "ml": {
+          "path": "./icons/dark/ml.svg"
+        },
+        "mojo": {
+          "path": "./icons/dark/mojo.svg"
+        },
+        "motoko": {
+          "path": "./icons/dark/motoko.svg"
+        },
+        "mp4": {
+          "path": "./icons/dark/mp4.svg"
+        },
+        "mpegaudiolayeriii": {
+          "path": "./icons/dark/mpegaudiolayeriii.svg"
+        },
+        "mpv": {
+          "path": "./icons/dark/mpv.svg"
+        },
+        "nano": {
+          "path": "./icons/dark/nano.svg"
+        },
+        "nextconfigcjs": {
+          "path": "./icons/dark/nextconfigcjs.svg"
+        },
+        "nim": {
+          "path": "./icons/dark/nim.svg"
+        },
+        "nix": {
+          "path": "./icons/dark/nix.svg"
+        },
+        "node": {
+          "path": "./icons/dark/node.svg"
+        },
+        "nodemodules": {
+          "path": "./icons/dark/nodemodules.svg"
+        },
+        "norg": {
+          "path": "./icons/dark/norg.svg"
+        },
+        "notebook": {
+          "path": "./icons/dark/notebook.svg"
+        },
+        "npmignore": {
+          "path": "./icons/dark/npmignore.svg"
+        },
+        "nushell": {
+          "path": "./icons/dark/nushell.svg"
+        },
+        "nuxtconfig": {
+          "path": "./icons/dark/nuxtconfig.svg"
+        },
+        "objectivec": {
+          "path": "./icons/dark/objectivec.svg"
+        },
+        "odin": {
+          "path": "./icons/dark/odin.svg"
+        },
+        "openscad": {
+          "path": "./icons/dark/openscad.svg"
+        },
+        "orgmode": {
+          "path": "./icons/dark/orgmode.svg"
+        },
+        "out": {
+          "path": "./icons/dark/out.svg"
+        },
+        "packedresource": {
+          "path": "./icons/dark/packedresource.svg"
+        },
+        "pdf": {
+          "path": "./icons/dark/pdf.svg"
+        },
+        "php": {
+          "path": "./icons/dark/php.svg"
+        },
+        "pkgbuild": {
+          "path": "./icons/dark/pkgbuild.svg"
+        },
+        "pl": {
+          "path": "./icons/dark/pl.svg"
+        },
+        "platformio": {
+          "path": "./icons/dark/platformio.svg"
+        },
+        "playwrightconfig": {
+          "path": "./icons/dark/playwrightconfig.svg"
+        },
+        "pnpmfile": {
+          "path": "./icons/dark/pnpmfile.svg"
+        },
+        "ppt": {
+          "path": "./icons/dark/ppt.svg"
+        },
+        "precommitconfig": {
+          "path": "./icons/dark/precommitconfig.svg"
+        },
+        "prefab": {
+          "path": "./icons/dark/prefab.svg"
+        },
+        "prettierignore": {
+          "path": "./icons/dark/prettierignore.svg"
+        },
+        "prisma": {
+          "path": "./icons/dark/prisma.svg"
+        },
+        "procfile": {
+          "path": "./icons/dark/procfile.svg"
+        },
+        "prolog": {
+          "path": "./icons/dark/prolog.svg"
+        },
+        "prusaslicer": {
+          "path": "./icons/dark/prusaslicer.svg"
+        },
+        "psb": {
+          "path": "./icons/dark/psb.svg"
+        },
+        "psscriptfile": {
+          "path": "./icons/dark/psscriptfile.svg"
+        },
+        "pub": {
+          "path": "./icons/dark/pub.svg"
+        },
+        "pxd": {
+          "path": "./icons/dark/pxd.svg"
+        },
+        "py": {
+          "path": "./icons/dark/py.svg"
+        },
+        "pyc": {
+          "path": "./icons/dark/pyc.svg"
+        },
+        "qt": {
+          "path": "./icons/dark/qt.svg"
+        },
+        "query": {
+          "path": "./icons/dark/query.svg"
+        },
+        "r": {
+          "path": "./icons/dark/r.svg"
+        },
+        "racket": {
+          "path": "./icons/dark/racket.svg"
+        },
+        "rasi": {
+          "path": "./icons/dark/rasi.svg"
+        },
+        "razorpage": {
+          "path": "./icons/dark/razorpage.svg"
+        },
+        "razorpage_2": {
+          "path": "./icons/dark/razorpage_2.svg"
+        },
+        "rb": {
+          "path": "./icons/dark/rb.svg"
+        },
+        "readme": {
+          "path": "./icons/dark/readme.svg"
+        },
+        "rescript": {
+          "path": "./icons/dark/rescript.svg"
+        },
+        "rescriptinterface": {
+          "path": "./icons/dark/rescriptinterface.svg"
+        },
+        "rlib": {
+          "path": "./icons/dark/rlib.svg"
+        },
+        "rmd": {
+          "path": "./icons/dark/rmd.svg"
+        },
+        "robotstxt": {
+          "path": "./icons/dark/robotstxt.svg"
+        },
+        "rproj": {
+          "path": "./icons/dark/rproj.svg"
+        },
+        "rs": {
+          "path": "./icons/dark/rs.svg"
+        },
+        "rss": {
+          "path": "./icons/dark/rss.svg"
+        },
+        "sass": {
+          "path": "./icons/dark/sass.svg"
+        },
+        "sbt": {
+          "path": "./icons/dark/sbt.svg"
+        },
+        "scheme": {
+          "path": "./icons/dark/scheme.svg"
+        },
+        "security": {
+          "path": "./icons/dark/security.svg"
+        },
+        "sig": {
+          "path": "./icons/dark/sig.svg"
+        },
+        "sln": {
+          "path": "./icons/dark/sln.svg"
+        },
+        "solidity": {
+          "path": "./icons/dark/solidity.svg"
+        },
+        "specjs": {
+          "path": "./icons/dark/specjs.svg"
+        },
+        "spects": {
+          "path": "./icons/dark/spects.svg"
+        },
+        "srcinfo": {
+          "path": "./icons/dark/srcinfo.svg"
+        },
+        "staticlibraryarchive": {
+          "path": "./icons/dark/staticlibraryarchive.svg"
+        },
+        "storybookjavascript": {
+          "path": "./icons/dark/storybookjavascript.svg"
+        },
+        "styl": {
+          "path": "./icons/dark/styl.svg"
+        },
+        "sublime": {
+          "path": "./icons/dark/sublime.svg"
+        },
+        "svelte": {
+          "path": "./icons/dark/svelte.svg"
+        },
+        "svg": {
+          "path": "./icons/dark/svg.svg"
+        },
+        "swift": {
+          "path": "./icons/dark/swift.svg"
+        },
+        "systemverilog": {
+          "path": "./icons/dark/systemverilog.svg"
+        },
+        "tailwindconfig": {
+          "path": "./icons/dark/tailwindconfig.svg"
+        },
+        "taskfileconfig": {
+          "path": "./icons/dark/taskfileconfig.svg"
+        },
+        "tcl": {
+          "path": "./icons/dark/tcl.svg"
+        },
+        "templ": {
+          "path": "./icons/dark/templ.svg"
+        },
+        "terminal": {
+          "path": "./icons/dark/terminal.svg"
+        },
+        "terraform": {
+          "path": "./icons/dark/terraform.svg"
+        },
+        "tex": {
+          "path": "./icons/dark/tex.svg"
+        },
+        "tfvars": {
+          "path": "./icons/dark/tfvars.svg"
+        },
+        "thunderbird": {
+          "path": "./icons/dark/thunderbird.svg"
+        },
+        "tmux": {
+          "path": "./icons/dark/tmux.svg"
+        },
+        "toml": {
+          "path": "./icons/dark/toml.svg"
+        },
+        "tsconfig": {
+          "path": "./icons/dark/tsconfig.svg"
+        },
+        "tsx": {
+          "path": "./icons/dark/tsx.svg"
+        },
+        "twig": {
+          "path": "./icons/dark/twig.svg"
+        },
+        "txt": {
+          "path": "./icons/dark/txt.svg"
+        },
+        "typescript": {
+          "path": "./icons/dark/typescript.svg"
+        },
+        "typescriptdeclaration": {
+          "path": "./icons/dark/typescriptdeclaration.svg"
+        },
+        "typoscriptconfig": {
+          "path": "./icons/dark/typoscriptconfig.svg"
+        },
+        "typst": {
+          "path": "./icons/dark/typst.svg"
+        },
+        "ui": {
+          "path": "./icons/dark/ui.svg"
+        },
+        "unity": {
+          "path": "./icons/dark/unity.svg"
+        },
+        "vagrantfile": {
+          "path": "./icons/dark/vagrantfile.svg"
+        },
+        "vala": {
+          "path": "./icons/dark/vala.svg"
+        },
+        "vercel": {
+          "path": "./icons/dark/vercel.svg"
+        },
+        "vim": {
+          "path": "./icons/dark/vim.svg"
+        },
+        "viteconfig": {
+          "path": "./icons/dark/viteconfig.svg"
+        },
+        "vitestconfig": {
+          "path": "./icons/dark/vitestconfig.svg"
+        },
+        "vlang": {
+          "path": "./icons/dark/vlang.svg"
+        },
+        "vlc": {
+          "path": "./icons/dark/vlc.svg"
+        },
+        "vue": {
+          "path": "./icons/dark/vue.svg"
+        },
+        "wasm": {
+          "path": "./icons/dark/wasm.svg"
+        },
+        "webgpushadinglanguage": {
+          "path": "./icons/dark/webgpushadinglanguage.svg"
+        },
+        "webmanifest": {
+          "path": "./icons/dark/webmanifest.svg"
+        },
+        "webpack": {
+          "path": "./icons/dark/webpack.svg"
+        },
+        "weston": {
+          "path": "./icons/dark/weston.svg"
+        },
+        "wranglerconfig": {
+          "path": "./icons/dark/wranglerconfig.svg"
+        },
+        "xaml": {
+          "path": "./icons/dark/xaml.svg"
+        },
+        "xauthority": {
+          "path": "./icons/dark/xauthority.svg"
+        },
+        "xls": {
+          "path": "./icons/dark/xls.svg"
+        },
+        "xml": {
+          "path": "./icons/dark/xml.svg"
+        },
+        "xmonad": {
+          "path": "./icons/dark/xmonad.svg"
+        },
+        "xpi": {
+          "path": "./icons/dark/xpi.svg"
+        },
+        "xslt": {
+          "path": "./icons/dark/xslt.svg"
+        },
+        "xul": {
+          "path": "./icons/dark/xul.svg"
+        },
+        "xz": {
+          "path": "./icons/dark/xz.svg"
+        },
+        "yaml": {
+          "path": "./icons/dark/yaml.svg"
+        },
+        "zig": {
+          "path": "./icons/dark/zig.svg"
+        },
+        "zigobjectnotation": {
+          "path": "./icons/dark/zigobjectnotation.svg"
+        },
+        "zsh": {
+          "path": "./icons/dark/zsh.svg"
+        }
+      }
+    },
+    {
+      "name": "Doomchad Icons Light",
+      "appearance": "light",
+      "directory_icons": {
+        "collapsed": "./icons/light/_folder.svg",
+        "expanded": "./icons/light/_folder_open.svg"
+      },
+      "chevron_icons": {
+        "collapsed": "./icons/light/_chevron_right.svg",
+        "expanded": "./icons/light/_chevron_down.svg"
+      },
+      "file_stems": {
+        ".SRCINFO": "srcinfo",
+        ".Xauthority": "xauthority",
+        ".Xresources": "xauthority",
+        ".babelrc": "babelrc",
+        ".bash_profile": "bat",
+        ".bashrc": "bat",
+        ".clang-format": "clangconfig",
+        ".clang-tidy": "clangconfig",
+        ".clangd": "clangconfig",
+        ".codespellrc": "codespell",
+        ".condarc": "conda",
+        ".dockerignore": "dockerfile",
+        ".ds_store": "configuration",
+        ".editorconfig": "editorconfig",
+        ".env": "env",
+        ".eslintignore": "eslintignore",
+        ".eslintrc": "eslintignore",
+        ".git-blame-ignore-revs": "gitlogo",
+        ".gitattributes": "gitlogo",
+        ".gitconfig": "gitconfig",
+        ".gitignore": "gitlogo",
+        ".gitlab-ci.yml": "gitlabci",
+        ".gitmodules": "gitlogo",
+        ".gtkrc-2.0": "gtk",
+        ".gvimrc": "vim",
+        ".justfile": "justfile",
+        ".luacheckrc": "luacheckrc",
+        ".luaurc": "luacheckrc",
+        ".mailmap": "mailmap",
+        ".nanorc": "nano",
+        ".npmignore": "npmignore",
+        ".npmrc": "npmignore",
+        ".nuxtrc": "nuxtconfig",
+        ".nvmrc": "node",
+        ".pnpmfile.cjs": "pnpmfile",
+        ".pre-commit-config.yaml": "precommitconfig",
+        ".prettierignore": "prettierignore",
+        ".prettierrc": "prettierignore",
+        ".prettierrc.cjs": "prettierignore",
+        ".prettierrc.js": "prettierignore",
+        ".prettierrc.json": "prettierignore",
+        ".prettierrc.json5": "prettierignore",
+        ".prettierrc.mjs": "prettierignore",
+        ".prettierrc.toml": "prettierignore",
+        ".prettierrc.yaml": "prettierignore",
+        ".prettierrc.yml": "prettierignore",
+        ".pylintrc": "configuration",
+        ".settings.json": "sln",
+        ".vimrc": "vim",
+        ".xinitrc": "xauthority",
+        ".xsession": "xauthority",
+        ".zprofile": "bat",
+        ".zshenv": "bat",
+        ".zshrc": "bat",
+        "AUTHORS": "authors",
+        "AUTHORS.txt": "authors",
+        "BITBUCKET-PIPELINES.yml": "bitbucketpipelinesconfig",
+        "BREWFILE": "configru",
+        "BSPWMRC": "bspwm",
+        "BUILD": "bazel",
+        "BUILD.gradle": "gradle",
+        "BUILD.zig.zon": "zigobjectnotation",
+        "BUN.lock": "bunlockfile",
+        "BUN.lockb": "bunlockfile",
+        "Bitbucket-pipelines.yml": "bitbucketpipelinesconfig",
+        "Brewfile": "configru",
+        "Bspwmrc": "bspwm",
+        "Build": "bazel",
+        "Build.gradle": "gradle",
+        "Build.zig.zon": "zigobjectnotation",
+        "Bun.lock": "bunlockfile",
+        "Bun.lockb": "bunlockfile",
+        "CANTORRC": "cantorrc",
+        "CHECKHEALTH": "checkhealth",
+        "CMAKELISTS.txt": "cmake",
+        "CODE_OF_CONDUCT": "codeofconduct",
+        "CODE_OF_CONDUCT.md": "codeofconduct",
+        "COMMITLINT.config.js": "commitlintconfig",
+        "COMMITLINT.config.ts": "commitlintconfig",
+        "COMMIT_EDITMSG": "gitlogo",
+        "COMPOSE.yaml": "dockerfile",
+        "COMPOSE.yml": "dockerfile",
+        "CONFIG": "configuration",
+        "CONTAINERFILE": "dockerfile",
+        "COPYING": "license",
+        "COPYING.lesser": "license",
+        "Cantorrc": "cantorrc",
+        "Checkhealth": "checkhealth",
+        "Cmakelists.txt": "cmake",
+        "Code_of_conduct": "codeofconduct",
+        "Code_of_conduct.md": "codeofconduct",
+        "Commit_editmsg": "gitlogo",
+        "Commitlint.config.js": "commitlintconfig",
+        "Commitlint.config.ts": "commitlintconfig",
+        "Compose.yaml": "dockerfile",
+        "Compose.yml": "dockerfile",
+        "Config": "configuration",
+        "Containerfile": "dockerfile",
+        "Copying": "license",
+        "Copying.lesser": "license",
+        "DIRECTORY.Build.props": "luacheckrc",
+        "DIRECTORY.Build.targets": "luacheckrc",
+        "DIRECTORY.Packages.props": "luacheckrc",
+        "DOCKER-COMPOSE.yaml": "dockerfile",
+        "DOCKER-COMPOSE.yml": "dockerfile",
+        "DOCKERFILE": "dockerfile",
+        "DUNE": "ml",
+        "Directory.Build.props": "luacheckrc",
+        "Directory.Build.targets": "luacheckrc",
+        "Directory.Packages.props": "luacheckrc",
+        "Docker-compose.yaml": "dockerfile",
+        "Docker-compose.yml": "dockerfile",
+        "Dockerfile": "dockerfile",
+        "Dune": "ml",
+        "ESLINT.config.cjs": "eslintignore",
+        "ESLINT.config.js": "eslintignore",
+        "ESLINT.config.mjs": "eslintignore",
+        "ESLINT.config.ts": "eslintignore",
+        "EXT_TYPOSCRIPT_SETUP.txt": "typoscriptconfig",
+        "Eslint.config.cjs": "eslintignore",
+        "Eslint.config.js": "eslintignore",
+        "Eslint.config.mjs": "eslintignore",
+        "Eslint.config.ts": "eslintignore",
+        "Ext_typoscript_setup.txt": "typoscriptconfig",
+        "FAVICON.ico": "favicon",
+        "FP-INFO-CACHE": "kicad",
+        "FP-LIB-TABLE": "kicad",
+        "FREECAD.conf": "freecad",
+        "Favicon.ico": "favicon",
+        "Fp-info-cache": "kicad",
+        "Fp-lib-table": "kicad",
+        "FreeCAD.conf": "freecad",
+        "GEMFILE": "configru",
+        "GNUMAKEFILE": "makefile",
+        "GO.mod": "go",
+        "GO.sum": "go",
+        "GO.work": "go",
+        "GRADLE-WRAPPER.properties": "gradle",
+        "GRADLE.properties": "gradle",
+        "GRADLEW": "gradle",
+        "GROOVY": "groovy",
+        "GRUNTFILE.babel.js": "gruntfile",
+        "GRUNTFILE.coffee": "gruntfile",
+        "GRUNTFILE.js": "gruntfile",
+        "GRUNTFILE.ts": "gruntfile",
+        "GTKRC": "gtk",
+        "GULPFILE.babel.js": "gulpfile",
+        "GULPFILE.coffee": "gulpfile",
+        "GULPFILE.js": "gulpfile",
+        "GULPFILE.ts": "gulpfile",
+        "Gemfile": "configru",
+        "Gnumakefile": "makefile",
+        "Go.mod": "go",
+        "Go.sum": "go",
+        "Go.work": "go",
+        "Gradle-wrapper.properties": "gradle",
+        "Gradle.properties": "gradle",
+        "Gradlew": "gradle",
+        "Groovy": "groovy",
+        "Gruntfile.babel.js": "gruntfile",
+        "Gruntfile.coffee": "gruntfile",
+        "Gruntfile.js": "gruntfile",
+        "Gruntfile.ts": "gruntfile",
+        "Gtkrc": "gtk",
+        "Gulpfile.babel.js": "gulpfile",
+        "Gulpfile.coffee": "gulpfile",
+        "Gulpfile.js": "gulpfile",
+        "Gulpfile.ts": "gulpfile",
+        "HYPRIDLE.conf": "hypridle",
+        "HYPRLAND.conf": "hypridle",
+        "HYPRLANDD.conf": "hypridle",
+        "HYPRLOCK.conf": "hypridle",
+        "HYPRPAPER.conf": "hypridle",
+        "HYPRSUNSET.conf": "hypridle",
+        "Hypridle.conf": "hypridle",
+        "Hyprland.conf": "hypridle",
+        "Hyprlandd.conf": "hypridle",
+        "Hyprlock.conf": "hypridle",
+        "Hyprpaper.conf": "hypridle",
+        "Hyprsunset.conf": "hypridle",
+        "I18N.config.js": "i18nconfig",
+        "I18N.config.ts": "i18nconfig",
+        "I18n.config.js": "i18nconfig",
+        "I18n.config.ts": "i18nconfig",
+        "I3BLOCKS.conf": "i3",
+        "I3STATUS.conf": "i3",
+        "I3blocks.conf": "i3",
+        "I3status.conf": "i3",
+        "INDEX.theme": "indextheme",
+        "IONIC.config.json": "ionic",
+        "Index.theme": "indextheme",
+        "Ionic.config.json": "ionic",
+        "JENKINSFILE": "jenkins",
+        "JUSTFILE": "justfile",
+        "Jenkinsfile": "jenkins",
+        "Justfile": "justfile",
+        "KALGEBRARC": "cantorrc",
+        "KDEGLOBALS": "cantorrc",
+        "KDENLIVE-LAYOUTSRC": "kdenlive",
+        "KDENLIVERC": "kdenlive",
+        "KRITADISPLAYRC": "krita",
+        "KRITARC": "krita",
+        "Kalgebrarc": "cantorrc",
+        "Kdeglobals": "cantorrc",
+        "Kdenlive-layoutsrc": "kdenlive",
+        "Kdenliverc": "kdenlive",
+        "Kritadisplayrc": "krita",
+        "Kritarc": "krita",
+        "LICENSE": "license_2",
+        "LICENSE.md": "license_2",
+        "LXDE-RC.xml": "lxdeconfigfile",
+        "LXQT.conf": "lxqtconfigfile",
+        "License": "license_2",
+        "License.md": "license_2",
+        "Lxde-rc.xml": "lxdeconfigfile",
+        "Lxqt.conf": "lxqtconfigfile",
+        "MAKEFILE": "makefile",
+        "MIX.lock": "eex",
+        "MPV.conf": "mpv",
+        "Makefile": "makefile",
+        "Mix.lock": "eex",
+        "Mpv.conf": "mpv",
+        "NEXT.config.cjs": "nextconfigcjs",
+        "NEXT.config.js": "nextconfigcjs",
+        "NEXT.config.ts": "nextconfigcjs",
+        "NODE_MODULES": "nodemodules",
+        "NUXT.config.cjs": "nuxtconfig",
+        "NUXT.config.js": "nuxtconfig",
+        "NUXT.config.mjs": "nuxtconfig",
+        "NUXT.config.ts": "nuxtconfig",
+        "Next.config.cjs": "nextconfigcjs",
+        "Next.config.js": "nextconfigcjs",
+        "Next.config.ts": "nextconfigcjs",
+        "Node_modules": "nodemodules",
+        "Nuxt.config.cjs": "nuxtconfig",
+        "Nuxt.config.js": "nuxtconfig",
+        "Nuxt.config.mjs": "nuxtconfig",
+        "Nuxt.config.ts": "nuxtconfig",
+        "PACKAGE-LOCK.json": "npmignore",
+        "PACKAGE.json": "npmignore",
+        "PKGBUILD": "pkgbuild",
+        "PLATFORMIO.ini": "platformio",
+        "PLAYWRIGHT.config.cjs": "playwrightconfig",
+        "PLAYWRIGHT.config.cts": "playwrightconfig",
+        "PLAYWRIGHT.config.js": "playwrightconfig",
+        "PLAYWRIGHT.config.mjs": "playwrightconfig",
+        "PLAYWRIGHT.config.mts": "playwrightconfig",
+        "PLAYWRIGHT.config.ts": "playwrightconfig",
+        "PNPM-LOCK.yaml": "pnpmfile",
+        "PNPM-WORKSPACE.yaml": "pnpmfile",
+        "POM.xml": "maven",
+        "PRETTIER.config.cjs": "prettierignore",
+        "PRETTIER.config.js": "prettierignore",
+        "PRETTIER.config.mjs": "prettierignore",
+        "PRETTIER.config.ts": "prettierignore",
+        "PRISMA.config.mts": "prisma",
+        "PRISMA.config.ts": "prisma",
+        "PROCFILE": "procfile",
+        "PRUSASLICER.ini": "prusaslicer",
+        "PRUSASLICERGCODEVIEWER.ini": "prusaslicer",
+        "PY.typed": "pyc",
+        "Package-lock.json": "npmignore",
+        "Package.json": "npmignore",
+        "Platformio.ini": "platformio",
+        "Playwright.config.cjs": "playwrightconfig",
+        "Playwright.config.cts": "playwrightconfig",
+        "Playwright.config.js": "playwrightconfig",
+        "Playwright.config.mjs": "playwrightconfig",
+        "Playwright.config.mts": "playwrightconfig",
+        "Playwright.config.ts": "playwrightconfig",
+        "Pnpm-lock.yaml": "pnpmfile",
+        "Pnpm-workspace.yaml": "pnpmfile",
+        "Pom.xml": "maven",
+        "Prettier.config.cjs": "prettierignore",
+        "Prettier.config.js": "prettierignore",
+        "Prettier.config.mjs": "prettierignore",
+        "Prettier.config.ts": "prettierignore",
+        "Prisma.config.mts": "prisma",
+        "Prisma.config.ts": "prisma",
+        "Procfile": "procfile",
+        "PrusaSlicer.ini": "prusaslicer",
+        "PrusaSlicerGcodeViewer.ini": "prusaslicer",
+        "Py.typed": "pyc",
+        "QTPROJECT.conf": "qt",
+        "QtProject.conf": "qt",
+        "RAKEFILE": "configru",
+        "README": "readme",
+        "README.md": "readme",
+        "RMD": "rmd",
+        "ROBOTS.txt": "robotstxt",
+        "Rakefile": "configru",
+        "Readme": "readme",
+        "Readme.md": "readme",
+        "Rmd": "rmd",
+        "Robots.txt": "robotstxt",
+        "SECURITY": "security",
+        "SECURITY.md": "security",
+        "SETTINGS.gradle": "gradle",
+        "SVELTE.config.js": "svelte",
+        "SXHKDRC": "bspwm",
+        "SYM-LIB-TABLE": "kicad",
+        "Security": "security",
+        "Security.md": "security",
+        "Settings.gradle": "gradle",
+        "Svelte.config.js": "svelte",
+        "Sxhkdrc": "bspwm",
+        "Sym-lib-table": "kicad",
+        "TAILWIND.config.js": "tailwindconfig",
+        "TAILWIND.config.mjs": "tailwindconfig",
+        "TAILWIND.config.ts": "tailwindconfig",
+        "TASKFILE.dist.yaml": "taskfileconfig",
+        "TASKFILE.dist.yml": "taskfileconfig",
+        "TASKFILE.yaml": "taskfileconfig",
+        "TASKFILE.yml": "taskfileconfig",
+        "TMUX.conf": "tmux",
+        "TMUX.conf.local": "tmux",
+        "TSCONFIG.json": "tsconfig",
+        "Tailwind.config.js": "tailwindconfig",
+        "Tailwind.config.mjs": "tailwindconfig",
+        "Tailwind.config.ts": "tailwindconfig",
+        "Taskfile.dist.yaml": "taskfileconfig",
+        "Taskfile.dist.yml": "taskfileconfig",
+        "Taskfile.yaml": "taskfileconfig",
+        "Taskfile.yml": "taskfileconfig",
+        "Tmux.conf": "tmux",
+        "Tmux.conf.local": "tmux",
+        "Tsconfig.json": "tsconfig",
+        "UNLICENSE": "license_2",
+        "Unlicense": "license_2",
+        "VAGRANTFILE": "vagrantfile",
+        "VERCEL.json": "vercel",
+        "VITE.config.cjs": "viteconfig",
+        "VITE.config.cts": "viteconfig",
+        "VITE.config.js": "viteconfig",
+        "VITE.config.mjs": "viteconfig",
+        "VITE.config.mts": "viteconfig",
+        "VITE.config.ts": "viteconfig",
+        "VITEST.config.cjs": "vitestconfig",
+        "VITEST.config.cts": "vitestconfig",
+        "VITEST.config.js": "vitestconfig",
+        "VITEST.config.mjs": "vitestconfig",
+        "VITEST.config.mts": "vitestconfig",
+        "VITEST.config.ts": "vitestconfig",
+        "VLCRC": "vlc",
+        "Vagrantfile": "vagrantfile",
+        "Vercel.json": "vercel",
+        "Vite.config.cjs": "viteconfig",
+        "Vite.config.cts": "viteconfig",
+        "Vite.config.js": "viteconfig",
+        "Vite.config.mjs": "viteconfig",
+        "Vite.config.mts": "viteconfig",
+        "Vite.config.ts": "viteconfig",
+        "Vitest.config.cjs": "vitestconfig",
+        "Vitest.config.cts": "vitestconfig",
+        "Vitest.config.js": "vitestconfig",
+        "Vitest.config.mjs": "vitestconfig",
+        "Vitest.config.mts": "vitestconfig",
+        "Vitest.config.ts": "vitestconfig",
+        "Vlcrc": "vlc",
+        "WEBPACK": "webpack",
+        "WESTON.ini": "weston",
+        "WORKSPACE": "bazel",
+        "WRANGLER.jsonc": "wranglerconfig",
+        "WRANGLER.toml": "wranglerconfig",
+        "Webpack": "webpack",
+        "Weston.ini": "weston",
+        "Workspace": "bazel",
+        "Wrangler.jsonc": "wranglerconfig",
+        "Wrangler.toml": "wranglerconfig",
+        "XDPH.conf": "hypridle",
+        "XMOBARRC": "xmonad",
+        "XMOBARRC.hs": "xmonad",
+        "XMONAD.hs": "xmonad",
+        "XORG.conf": "xauthority",
+        "XSETTINGSD.conf": "xauthority",
+        "Xdph.conf": "hypridle",
+        "Xmobarrc": "xmonad",
+        "Xmobarrc.hs": "xmonad",
+        "Xmonad.hs": "xmonad",
+        "Xorg.conf": "xauthority",
+        "Xsettingsd.conf": "xauthority",
+        "_GVIMRC": "vim",
+        "_VIMRC": "vim",
+        "_gvimrc": "vim",
+        "_vimrc": "vim",
+        "bitbucket-pipelines.yml": "bitbucketpipelinesconfig",
+        "brewfile": "configru",
+        "bspwmrc": "bspwm",
+        "build": "bazel",
+        "build.gradle": "gradle",
+        "build.zig.zon": "zigobjectnotation",
+        "bun.lock": "bunlockfile",
+        "bun.lockb": "bunlockfile",
+        "cantorrc": "cantorrc",
+        "checkhealth": "checkhealth",
+        "cmakelists.txt": "cmake",
+        "code_of_conduct": "codeofconduct",
+        "code_of_conduct.md": "codeofconduct",
+        "commit_editmsg": "gitlogo",
+        "commitlint.config.js": "commitlintconfig",
+        "commitlint.config.ts": "commitlintconfig",
+        "compose.yaml": "dockerfile",
+        "compose.yml": "dockerfile",
+        "config": "configuration",
+        "containerfile": "dockerfile",
+        "copying": "license",
+        "copying.lesser": "license",
+        "docker-compose.yaml": "dockerfile",
+        "docker-compose.yml": "dockerfile",
+        "dockerfile": "dockerfile",
+        "dune": "ml",
+        "eslint.config.cjs": "eslintignore",
+        "eslint.config.js": "eslintignore",
+        "eslint.config.mjs": "eslintignore",
+        "eslint.config.ts": "eslintignore",
+        "ext_typoscript_setup.txt": "typoscriptconfig",
+        "favicon.ico": "favicon",
+        "fp-info-cache": "kicad",
+        "fp-lib-table": "kicad",
+        "gnumakefile": "makefile",
+        "go.mod": "go",
+        "go.sum": "go",
+        "go.work": "go",
+        "gradle-wrapper.properties": "gradle",
+        "gradle.properties": "gradle",
+        "gradlew": "gradle",
+        "groovy": "groovy",
+        "gruntfile.babel.js": "gruntfile",
+        "gruntfile.coffee": "gruntfile",
+        "gruntfile.js": "gruntfile",
+        "gruntfile.ts": "gruntfile",
+        "gtkrc": "gtk",
+        "gulpfile.babel.js": "gulpfile",
+        "gulpfile.coffee": "gulpfile",
+        "gulpfile.js": "gulpfile",
+        "gulpfile.ts": "gulpfile",
+        "hypridle.conf": "hypridle",
+        "hyprland.conf": "hypridle",
+        "hyprlandd.conf": "hypridle",
+        "hyprlock.conf": "hypridle",
+        "hyprpaper.conf": "hypridle",
+        "hyprsunset.conf": "hypridle",
+        "i18n.config.js": "i18nconfig",
+        "i18n.config.ts": "i18nconfig",
+        "i3blocks.conf": "i3",
+        "i3status.conf": "i3",
+        "index.theme": "indextheme",
+        "ionic.config.json": "ionic",
+        "justfile": "justfile",
+        "kalgebrarc": "cantorrc",
+        "kdeglobals": "cantorrc",
+        "kdenlive-layoutsrc": "kdenlive",
+        "kdenliverc": "kdenlive",
+        "kritadisplayrc": "krita",
+        "kritarc": "krita",
+        "license": "license_2",
+        "license.md": "license_2",
+        "lxde-rc.xml": "lxdeconfigfile",
+        "lxqt.conf": "lxqtconfigfile",
+        "makefile": "makefile",
+        "mix.lock": "eex",
+        "mpv.conf": "mpv",
+        "next.config.cjs": "nextconfigcjs",
+        "next.config.js": "nextconfigcjs",
+        "next.config.ts": "nextconfigcjs",
+        "node_modules": "nodemodules",
+        "nuxt.config.cjs": "nuxtconfig",
+        "nuxt.config.js": "nuxtconfig",
+        "nuxt.config.mjs": "nuxtconfig",
+        "nuxt.config.ts": "nuxtconfig",
+        "package-lock.json": "npmignore",
+        "package.json": "npmignore",
+        "platformio.ini": "platformio",
+        "playwright.config.cjs": "playwrightconfig",
+        "playwright.config.cts": "playwrightconfig",
+        "playwright.config.js": "playwrightconfig",
+        "playwright.config.mjs": "playwrightconfig",
+        "playwright.config.mts": "playwrightconfig",
+        "playwright.config.ts": "playwrightconfig",
+        "pnpm-lock.yaml": "pnpmfile",
+        "pnpm-workspace.yaml": "pnpmfile",
+        "pom.xml": "maven",
+        "prettier.config.cjs": "prettierignore",
+        "prettier.config.js": "prettierignore",
+        "prettier.config.mjs": "prettierignore",
+        "prettier.config.ts": "prettierignore",
+        "prisma.config.mts": "prisma",
+        "prisma.config.ts": "prisma",
+        "procfile": "procfile",
+        "py.typed": "pyc",
+        "rakefile": "configru",
+        "readme": "readme",
+        "readme.md": "readme",
+        "rmd": "rmd",
+        "robots.txt": "robotstxt",
+        "security": "security",
+        "security.md": "security",
+        "settings.gradle": "gradle",
+        "svelte.config.js": "svelte",
+        "sxhkdrc": "bspwm",
+        "sym-lib-table": "kicad",
+        "tailwind.config.js": "tailwindconfig",
+        "tailwind.config.mjs": "tailwindconfig",
+        "tailwind.config.ts": "tailwindconfig",
+        "taskfile.dist.yaml": "taskfileconfig",
+        "taskfile.dist.yml": "taskfileconfig",
+        "taskfile.yaml": "taskfileconfig",
+        "taskfile.yml": "taskfileconfig",
+        "tmux.conf": "tmux",
+        "tmux.conf.local": "tmux",
+        "tsconfig.json": "tsconfig",
+        "unlicense": "license_2",
+        "vagrantfile": "vagrantfile",
+        "vercel.json": "vercel",
+        "vite.config.cjs": "viteconfig",
+        "vite.config.cts": "viteconfig",
+        "vite.config.js": "viteconfig",
+        "vite.config.mjs": "viteconfig",
+        "vite.config.mts": "viteconfig",
+        "vite.config.ts": "viteconfig",
+        "vitest.config.cjs": "vitestconfig",
+        "vitest.config.cts": "vitestconfig",
+        "vitest.config.js": "vitestconfig",
+        "vitest.config.mjs": "vitestconfig",
+        "vitest.config.mts": "vitestconfig",
+        "vitest.config.ts": "vitestconfig",
+        "vlcrc": "vlc",
+        "webpack": "webpack",
+        "weston.ini": "weston",
+        "workspace": "bazel",
+        "wrangler.jsonc": "wranglerconfig",
+        "wrangler.toml": "wranglerconfig",
+        "xdph.conf": "hypridle",
+        "xmobarrc": "xmonad",
+        "xmobarrc.hs": "xmonad",
+        "xmonad.hs": "xmonad",
+        "xorg.conf": "xauthority",
+        "xsettingsd.conf": "xauthority"
+      },
+      "file_suffixes": {
+        "3gp": "3gp",
+        "3mf": "3dobjectfile",
+        "7z": "7z",
+        "Dockerfile": "dockerfile",
+        "R": "r",
+        "a": "staticlibraryarchive",
+        "aac": "advancedaudiocoding",
+        "ada": "adafile",
+        "adb": "adafile",
+        "ads": "adaspecification",
+        "ai": "ai",
+        "aif": "advancedaudiocoding",
+        "aiff": "advancedaudiocoding",
+        "android": "android",
+        "ape": "advancedaudiocoding",
+        "apk": "android",
+        "apl": "apl",
+        "app": "app",
+        "applescript": "applescript",
+        "asc": "asc",
+        "asm": "asm",
+        "asmdef": "asmdef",
+        "ass": "ass",
+        "astro": "astro",
+        "avi": "3gp",
+        "avif": "avif",
+        "awk": "awk",
+        "azcli": "azurecli",
+        "bak": "backup",
+        "bash": "bash",
+        "bat": "bat",
+        "bazel": "bazel",
+        "bib": "bibtex",
+        "bicep": "bicep",
+        "bicepparam": "bicepparameters",
+        "bin": "app",
+        "blade.php": "blade",
+        "blend": "blender",
+        "blp": "blueprint",
+        "bmp": "avif",
+        "bqn": "apl",
+        "brep": "boundaryrepresentation",
+        "bz": "7z",
+        "bz2": "7z",
+        "bz3": "7z",
+        "bzl": "bazel",
+        "c": "c",
+        "c++": "cplusplus",
+        "cache": "cache",
+        "cast": "3gp",
+        "cbl": "cobol",
+        "cc": "cplusplus",
+        "ccm": "cplusplus",
+        "cfc": "coldfusionscript",
+        "cfg": "configuration",
+        "cfm": "coldfusionscript",
+        "cjs": "cjs",
+        "clj": "clojure",
+        "cljc": "clojure",
+        "cljd": "clojuredart",
+        "cljs": "clojuredart",
+        "cmake": "cmake",
+        "cob": "cobol",
+        "cobol": "cobol",
+        "coffee": "coffee",
+        "conda": "conda",
+        "conf": "configuration",
+        "config.ru": "configru",
+        "cow": "cowsayfile",
+        "cp": "cp",
+        "cpp": "cp",
+        "cppm": "cp",
+        "cpy": "cobol",
+        "cr": "crystal",
+        "crdownload": "crdownload",
+        "cs": "cs",
+        "csh": "awk",
+        "cshtml": "razorpage",
+        "cson": "cson",
+        "csproj": "csharpproject",
+        "css": "css",
+        "csv": "csv",
+        "cts": "cts",
+        "cu": "cuda",
+        "cue": "cue",
+        "cuh": "cudah",
+        "cxx": "cp",
+        "cxxm": "cp",
+        "d": "d",
+        "d.ts": "typescriptdeclaration",
+        "dart": "dart",
+        "db": "db",
+        "dconf": "dconf",
+        "desktop": "desktopentry",
+        "diff": "diff",
+        "dll": "dll",
+        "doc": "doc",
+        "dockerignore": "dockerignore",
+        "docx": "doc",
+        "dot": "dot",
+        "download": "crdownload",
+        "drl": "drools",
+        "dropbox": "dropbox",
+        "dump": "db",
+        "dwg": "boundaryrepresentation",
+        "dxf": "boundaryrepresentation",
+        "ebook": "ebook",
+        "ebuild": "gentoobuild",
+        "edn": "clojuredart",
+        "eex": "eex",
+        "ejs": "ejs",
+        "el": "elisp",
+        "elc": "elisp",
+        "elf": "app",
+        "elm": "elm",
+        "eln": "elisp",
+        "env": "env",
+        "eot": "embeddedopentypefont",
+        "epp": "epp",
+        "epub": "ebook",
+        "erb": "erb",
+        "erl": "erl",
+        "ex": "eex",
+        "exe": "app",
+        "exs": "eex",
+        "f#": "fsharp",
+        "f3d": "boundaryrepresentation",
+        "f90": "fortran",
+        "fbx": "3dobjectfile",
+        "fcbak": "freecad",
+        "fcmacro": "freecad",
+        "fcmat": "freecad",
+        "fcparam": "freecad",
+        "fcscript": "freecad",
+        "fcstd": "freecad",
+        "fcstd1": "freecad",
+        "fctb": "freecad",
+        "fctl": "freecad",
+        "fdmdownload": "crdownload",
+        "feature": "feature",
+        "fish": "awk",
+        "flac": "freelosslessaudiocodec",
+        "flc": "embeddedopentypefont",
+        "flf": "embeddedopentypefont",
+        "fnl": "fennel",
+        "fodg": "libreofficegraphics",
+        "fodp": "libreofficeimpress",
+        "fods": "libreofficecalc",
+        "fodt": "libreofficewriter",
+        "frag": "fragmentshader",
+        "fs": "fsharp",
+        "fsi": "fsharp",
+        "fsscript": "fsharp",
+        "fsx": "fsharp",
+        "gcode": "gcode",
+        "gd": "gdscript",
+        "gemspec": "configru",
+        "geom": "fragmentshader",
+        "gif": "avif",
+        "git": "gitlogo",
+        "glb": "binarygltf",
+        "gleam": "gleam",
+        "glsl": "fragmentshader",
+        "gnumakefile": "makefile",
+        "go": "go",
+        "godot": "gdscript",
+        "gpr": "gprbuildproject",
+        "gql": "graphql",
+        "gradle": "gradle",
+        "graphql": "graphql",
+        "gresource": "gtk",
+        "gv": "dot",
+        "gz": "7z",
+        "h": "h",
+        "haml": "haml",
+        "hbs": "hbs",
+        "heex": "eex",
+        "heic": "avif",
+        "hex": "hexadecimal",
+        "hh": "h",
+        "hpp": "h",
+        "hrl": "erl",
+        "hs": "hs",
+        "htm": "erb",
+        "html": "html",
+        "http": "http",
+        "huff": "huff",
+        "hurl": "hurl",
+        "hx": "haxe",
+        "hxx": "h",
+        "ical": "ical",
+        "icalendar": "ical",
+        "ico": "ico",
+        "ics": "ical",
+        "ifb": "ical",
+        "ifc": "boundaryrepresentation",
+        "ige": "boundaryrepresentation",
+        "iges": "boundaryrepresentation",
+        "igs": "boundaryrepresentation",
+        "image": "image",
+        "img": "image",
+        "import": "importconfiguration",
+        "info": "info",
+        "ini": "configuration",
+        "ino": "arduino",
+        "ipynb": "notebook",
+        "iso": "image",
+        "ixx": "cp",
+        "jar": "jar",
+        "java": "jar",
+        "jl": "jl",
+        "jpeg": "avif",
+        "jpg": "avif",
+        "js": "js",
+        "json": "cson",
+        "json5": "cson",
+        "jsonc": "cson",
+        "jsonl": "cson",
+        "jsx": "jsx",
+        "jwmrc": "jwm",
+        "jxl": "avif",
+        "kbx": "kbx",
+        "kdb": "kdb",
+        "kdbx": "kdb",
+        "kdenlive": "kdenlive",
+        "kdenlivetitle": "kdenlive",
+        "kicad_dru": "kicad",
+        "kicad_mod": "kicad",
+        "kicad_pcb": "kicad",
+        "kicad_prl": "kicad",
+        "kicad_pro": "kicad",
+        "kicad_sch": "kicad",
+        "kicad_sym": "kicad",
+        "kicad_wks": "kicad",
+        "ko": "linuxkernelobject",
+        "kpp": "krita",
+        "kra": "krita",
+        "krz": "krita",
+        "ksh": "awk",
+        "kt": "kotlin",
+        "kts": "kotlinscript",
+        "lck": "lock",
+        "leex": "eex",
+        "less": "less",
+        "lff": "embeddedopentypefont",
+        "lhs": "hs",
+        "lib": "dll",
+        "license": "license",
+        "liquid": "liquid",
+        "lock": "lock",
+        "log": "log",
+        "lrc": "ass",
+        "lua": "lua",
+        "luac": "lua",
+        "luau": "luau",
+        "m": "objectivec",
+        "m3u": "cue",
+        "m3u8": "cue",
+        "m4a": "advancedaudiocoding",
+        "m4v": "3gp",
+        "magnet": "magnet",
+        "makefile": "makefile",
+        "markdown": "markdown",
+        "material": "material",
+        "md": "md",
+        "md5": "md5",
+        "mdx": "mdx",
+        "mint": "mint",
+        "mjs": "js",
+        "mk": "makefile",
+        "mkv": "3gp",
+        "ml": "ml",
+        "mli": "ml",
+        "mm": "cp",
+        "mo": "motoko",
+        "mobi": "ebook",
+        "mojo": "mojo",
+        "mov": "3gp",
+        "mp3": "mpegaudiolayeriii",
+        "mp4": "mp4",
+        "mpp": "cp",
+        "msf": "thunderbird",
+        "mts": "cts",
+        "mustache": "hbs",
+        "nfo": "info",
+        "nim": "nim",
+        "nix": "nix",
+        "norg": "norg",
+        "nswag": "cson",
+        "nu": "nushell",
+        "o": "app",
+        "obj": "3dobjectfile",
+        "odf": "libreofficeformula",
+        "odg": "libreofficegraphics",
+        "odin": "odin",
+        "odp": "libreofficeimpress",
+        "ods": "libreofficecalc",
+        "odt": "libreofficewriter",
+        "oga": "freelosslessaudiocodec",
+        "ogg": "freelosslessaudiocodec",
+        "ogv": "3gp",
+        "ogx": "3gp",
+        "opus": "freelosslessaudiocodec",
+        "org": "orgmode",
+        "otf": "embeddedopentypefont",
+        "out": "out",
+        "part": "crdownload",
+        "patch": "diff",
+        "pck": "packedresource",
+        "pcm": "freelosslessaudiocodec",
+        "pdf": "pdf",
+        "php": "php",
+        "pl": "pl",
+        "pls": "cue",
+        "ply": "3dobjectfile",
+        "pm": "pl",
+        "png": "avif",
+        "po": "localization",
+        "pot": "localization",
+        "pp": "epp",
+        "ppt": "ppt",
+        "pptx": "ppt",
+        "prefab": "prefab",
+        "prisma": "prisma",
+        "pro": "prolog",
+        "ps1": "psscriptfile",
+        "psb": "psb",
+        "psd": "psb",
+        "psd1": "psscriptfile",
+        "psm1": "psscriptfile",
+        "pub": "pub",
+        "pxd": "pxd",
+        "pxi": "pxd",
+        "py": "py",
+        "pyc": "pyc",
+        "pyd": "pyc",
+        "pyi": "pyc",
+        "pyo": "pyc",
+        "pyw": "pxd",
+        "pyx": "pxd",
+        "qm": "localization",
+        "qml": "qt",
+        "qrc": "qt",
+        "qss": "qt",
+        "query": "query",
+        "r": "r",
+        "rake": "configru",
+        "rar": "7z",
+        "rasi": "rasi",
+        "razor": "razorpage_2",
+        "rb": "rb",
+        "res": "rescript",
+        "resi": "rescriptinterface",
+        "rkt": "racket",
+        "rlib": "rlib",
+        "rmd": "rmd",
+        "rproj": "rproj",
+        "rs": "rs",
+        "rss": "rss",
+        "s": "asm",
+        "sass": "sass",
+        "sbt": "sbt",
+        "sc": "sbt",
+        "scad": "openscad",
+        "scala": "sbt",
+        "scm": "scheme",
+        "scss": "sass",
+        "sh": "awk",
+        "sha1": "md5",
+        "sha224": "md5",
+        "sha256": "md5",
+        "sha384": "md5",
+        "sha512": "md5",
+        "sig": "sig",
+        "signature": "sig",
+        "skp": "boundaryrepresentation",
+        "sldasm": "boundaryrepresentation",
+        "sldprt": "boundaryrepresentation",
+        "slim": "erb",
+        "sln": "sln",
+        "slnx": "sln",
+        "slvs": "boundaryrepresentation",
+        "sml": "sig",
+        "so": "staticlibraryarchive",
+        "sol": "solidity",
+        "spec.js": "specjs",
+        "spec.jsx": "javascriptreactspec",
+        "spec.ts": "spects",
+        "spec.tsx": "spects",
+        "spx": "freelosslessaudiocodec",
+        "sql": "db",
+        "sqlite": "db",
+        "sqlite3": "db",
+        "srt": "ass",
+        "ssa": "ass",
+        "ste": "boundaryrepresentation",
+        "step": "boundaryrepresentation",
+        "stl": "3dobjectfile",
+        "stories.js": "storybookjavascript",
+        "stories.jsx": "storybookjavascript",
+        "stories.mjs": "storybookjavascript",
+        "stories.svelte": "storybookjavascript",
+        "stories.ts": "storybookjavascript",
+        "stories.tsx": "storybookjavascript",
+        "stories.vue": "storybookjavascript",
+        "stp": "boundaryrepresentation",
+        "strings": "localization",
+        "styl": "styl",
+        "sub": "ass",
+        "sublime": "sublime",
+        "suo": "sln",
+        "sv": "systemverilog",
+        "svelte": "svelte",
+        "svg": "svg",
+        "svgz": "svg",
+        "svh": "systemverilog",
+        "svx": "svelte",
+        "swift": "swift",
+        "t": "pl",
+        "tbc": "tcl",
+        "tcl": "tcl",
+        "templ": "templ",
+        "terminal": "terminal",
+        "test.js": "specjs",
+        "test.jsx": "javascriptreactspec",
+        "test.ts": "spects",
+        "test.tsx": "spects",
+        "tex": "tex",
+        "tf": "terraform",
+        "tfvars": "tfvars",
+        "tgz": "7z",
+        "tmpl": "templ",
+        "tmux": "tmux",
+        "toml": "toml",
+        "torrent": "crdownload",
+        "tres": "gdscript",
+        "ts": "typescript",
+        "tscn": "gdscript",
+        "tsconfig": "typoscriptconfig",
+        "tsx": "tsx",
+        "ttf": "embeddedopentypefont",
+        "twig": "twig",
+        "txt": "txt",
+        "txz": "7z",
+        "typ": "typst",
+        "typoscript": "typoscriptconfig",
+        "ui": "ui",
+        "unity": "unity",
+        "v": "systemverilog",
+        "vala": "vala",
+        "vert": "fragmentshader",
+        "vh": "systemverilog",
+        "vhd": "systemverilog",
+        "vhdl": "systemverilog",
+        "vi": "labview",
+        "vim": "vim",
+        "vsh": "vlang",
+        "vsix": "sln",
+        "vue": "vue",
+        "wasm": "wasm",
+        "wav": "advancedaudiocoding",
+        "webm": "3gp",
+        "webmanifest": "webmanifest",
+        "webp": "avif",
+        "webpack": "webpack",
+        "wgsl": "webgpushadinglanguage",
+        "wma": "advancedaudiocoding",
+        "wmv": "3gp",
+        "woff": "embeddedopentypefont",
+        "woff2": "embeddedopentypefont",
+        "wrl": "3dobjectfile",
+        "wrz": "3dobjectfile",
+        "wv": "advancedaudiocoding",
+        "wvc": "advancedaudiocoding",
+        "x": "logos",
+        "xaml": "xaml",
+        "xcf": "gimp",
+        "xcplayground": "swift",
+        "xcstrings": "localization",
+        "xls": "xls",
+        "xlsx": "xls",
+        "xm": "logos",
+        "xml": "xml",
+        "xpi": "xpi",
+        "xslt": "xslt",
+        "xul": "xul",
+        "xz": "xz",
+        "yaml": "yaml",
+        "yml": "yaml",
+        "zig": "zig",
+        "zip": "xz",
+        "zsh": "zsh",
+        "zst": "7z",
+        "🔥": "mojo"
+      },
+      "file_icons": {
+        "default": {
+          "path": "./icons/light/_default.svg"
+        },
+        "3dobjectfile": {
+          "path": "./icons/light/3dobjectfile.svg"
+        },
+        "3gp": {
+          "path": "./icons/light/3gp.svg"
+        },
+        "7z": {
+          "path": "./icons/light/7z.svg"
+        },
+        "adafile": {
+          "path": "./icons/light/adafile.svg"
+        },
+        "adaspecification": {
+          "path": "./icons/light/adaspecification.svg"
+        },
+        "advancedaudiocoding": {
+          "path": "./icons/light/advancedaudiocoding.svg"
+        },
+        "ai": {
+          "path": "./icons/light/ai.svg"
+        },
+        "android": {
+          "path": "./icons/light/android.svg"
+        },
+        "apl": {
+          "path": "./icons/light/apl.svg"
+        },
+        "app": {
+          "path": "./icons/light/app.svg"
+        },
+        "applescript": {
+          "path": "./icons/light/applescript.svg"
+        },
+        "arduino": {
+          "path": "./icons/light/arduino.svg"
+        },
+        "asc": {
+          "path": "./icons/light/asc.svg"
+        },
+        "asm": {
+          "path": "./icons/light/asm.svg"
+        },
+        "asmdef": {
+          "path": "./icons/light/asmdef.svg"
+        },
+        "ass": {
+          "path": "./icons/light/ass.svg"
+        },
+        "astro": {
+          "path": "./icons/light/astro.svg"
+        },
+        "authors": {
+          "path": "./icons/light/authors.svg"
+        },
+        "avif": {
+          "path": "./icons/light/avif.svg"
+        },
+        "awk": {
+          "path": "./icons/light/awk.svg"
+        },
+        "azurecli": {
+          "path": "./icons/light/azurecli.svg"
+        },
+        "babelrc": {
+          "path": "./icons/light/babelrc.svg"
+        },
+        "backup": {
+          "path": "./icons/light/backup.svg"
+        },
+        "bash": {
+          "path": "./icons/light/bash.svg"
+        },
+        "bat": {
+          "path": "./icons/light/bat.svg"
+        },
+        "bazel": {
+          "path": "./icons/light/bazel.svg"
+        },
+        "bibtex": {
+          "path": "./icons/light/bibtex.svg"
+        },
+        "bicep": {
+          "path": "./icons/light/bicep.svg"
+        },
+        "bicepparameters": {
+          "path": "./icons/light/bicepparameters.svg"
+        },
+        "binarygltf": {
+          "path": "./icons/light/binarygltf.svg"
+        },
+        "bitbucketpipelinesconfig": {
+          "path": "./icons/light/bitbucketpipelinesconfig.svg"
+        },
+        "blade": {
+          "path": "./icons/light/blade.svg"
+        },
+        "blender": {
+          "path": "./icons/light/blender.svg"
+        },
+        "blueprint": {
+          "path": "./icons/light/blueprint.svg"
+        },
+        "boundaryrepresentation": {
+          "path": "./icons/light/boundaryrepresentation.svg"
+        },
+        "bspwm": {
+          "path": "./icons/light/bspwm.svg"
+        },
+        "bunlockfile": {
+          "path": "./icons/light/bunlockfile.svg"
+        },
+        "c": {
+          "path": "./icons/light/c.svg"
+        },
+        "cache": {
+          "path": "./icons/light/cache.svg"
+        },
+        "cantorrc": {
+          "path": "./icons/light/cantorrc.svg"
+        },
+        "checkhealth": {
+          "path": "./icons/light/checkhealth.svg"
+        },
+        "cjs": {
+          "path": "./icons/light/cjs.svg"
+        },
+        "clangconfig": {
+          "path": "./icons/light/clangconfig.svg"
+        },
+        "clojure": {
+          "path": "./icons/light/clojure.svg"
+        },
+        "clojuredart": {
+          "path": "./icons/light/clojuredart.svg"
+        },
+        "cmake": {
+          "path": "./icons/light/cmake.svg"
+        },
+        "cobol": {
+          "path": "./icons/light/cobol.svg"
+        },
+        "codeofconduct": {
+          "path": "./icons/light/codeofconduct.svg"
+        },
+        "codespell": {
+          "path": "./icons/light/codespell.svg"
+        },
+        "coffee": {
+          "path": "./icons/light/coffee.svg"
+        },
+        "coldfusionscript": {
+          "path": "./icons/light/coldfusionscript.svg"
+        },
+        "commitlintconfig": {
+          "path": "./icons/light/commitlintconfig.svg"
+        },
+        "conda": {
+          "path": "./icons/light/conda.svg"
+        },
+        "configru": {
+          "path": "./icons/light/configru.svg"
+        },
+        "configuration": {
+          "path": "./icons/light/configuration.svg"
+        },
+        "cowsayfile": {
+          "path": "./icons/light/cowsayfile.svg"
+        },
+        "cp": {
+          "path": "./icons/light/cp.svg"
+        },
+        "cplusplus": {
+          "path": "./icons/light/cplusplus.svg"
+        },
+        "crdownload": {
+          "path": "./icons/light/crdownload.svg"
+        },
+        "crystal": {
+          "path": "./icons/light/crystal.svg"
+        },
+        "cs": {
+          "path": "./icons/light/cs.svg"
+        },
+        "csharpproject": {
+          "path": "./icons/light/csharpproject.svg"
+        },
+        "cson": {
+          "path": "./icons/light/cson.svg"
+        },
+        "css": {
+          "path": "./icons/light/css.svg"
+        },
+        "csv": {
+          "path": "./icons/light/csv.svg"
+        },
+        "cts": {
+          "path": "./icons/light/cts.svg"
+        },
+        "cuda": {
+          "path": "./icons/light/cuda.svg"
+        },
+        "cudah": {
+          "path": "./icons/light/cudah.svg"
+        },
+        "cue": {
+          "path": "./icons/light/cue.svg"
+        },
+        "d": {
+          "path": "./icons/light/d.svg"
+        },
+        "dart": {
+          "path": "./icons/light/dart.svg"
+        },
+        "db": {
+          "path": "./icons/light/db.svg"
+        },
+        "dconf": {
+          "path": "./icons/light/dconf.svg"
+        },
+        "desktopentry": {
+          "path": "./icons/light/desktopentry.svg"
+        },
+        "diff": {
+          "path": "./icons/light/diff.svg"
+        },
+        "dll": {
+          "path": "./icons/light/dll.svg"
+        },
+        "doc": {
+          "path": "./icons/light/doc.svg"
+        },
+        "dockerfile": {
+          "path": "./icons/light/dockerfile.svg"
+        },
+        "dockerignore": {
+          "path": "./icons/light/dockerignore.svg"
+        },
+        "dot": {
+          "path": "./icons/light/dot.svg"
+        },
+        "drools": {
+          "path": "./icons/light/drools.svg"
+        },
+        "dropbox": {
+          "path": "./icons/light/dropbox.svg"
+        },
+        "ebook": {
+          "path": "./icons/light/ebook.svg"
+        },
+        "editorconfig": {
+          "path": "./icons/light/editorconfig.svg"
+        },
+        "eex": {
+          "path": "./icons/light/eex.svg"
+        },
+        "ejs": {
+          "path": "./icons/light/ejs.svg"
+        },
+        "elisp": {
+          "path": "./icons/light/elisp.svg"
+        },
+        "elm": {
+          "path": "./icons/light/elm.svg"
+        },
+        "embeddedopentypefont": {
+          "path": "./icons/light/embeddedopentypefont.svg"
+        },
+        "env": {
+          "path": "./icons/light/env.svg"
+        },
+        "epp": {
+          "path": "./icons/light/epp.svg"
+        },
+        "erb": {
+          "path": "./icons/light/erb.svg"
+        },
+        "erl": {
+          "path": "./icons/light/erl.svg"
+        },
+        "eslintignore": {
+          "path": "./icons/light/eslintignore.svg"
+        },
+        "favicon": {
+          "path": "./icons/light/favicon.svg"
+        },
+        "feature": {
+          "path": "./icons/light/feature.svg"
+        },
+        "fennel": {
+          "path": "./icons/light/fennel.svg"
+        },
+        "fortran": {
+          "path": "./icons/light/fortran.svg"
+        },
+        "fragmentshader": {
+          "path": "./icons/light/fragmentshader.svg"
+        },
+        "freecad": {
+          "path": "./icons/light/freecad.svg"
+        },
+        "freelosslessaudiocodec": {
+          "path": "./icons/light/freelosslessaudiocodec.svg"
+        },
+        "fsharp": {
+          "path": "./icons/light/fsharp.svg"
+        },
+        "gcode": {
+          "path": "./icons/light/gcode.svg"
+        },
+        "gdscript": {
+          "path": "./icons/light/gdscript.svg"
+        },
+        "gentoobuild": {
+          "path": "./icons/light/gentoobuild.svg"
+        },
+        "gimp": {
+          "path": "./icons/light/gimp.svg"
+        },
+        "gitconfig": {
+          "path": "./icons/light/gitconfig.svg"
+        },
+        "gitlabci": {
+          "path": "./icons/light/gitlabci.svg"
+        },
+        "gitlogo": {
+          "path": "./icons/light/gitlogo.svg"
+        },
+        "gleam": {
+          "path": "./icons/light/gleam.svg"
+        },
+        "go": {
+          "path": "./icons/light/go.svg"
+        },
+        "gprbuildproject": {
+          "path": "./icons/light/gprbuildproject.svg"
+        },
+        "gradle": {
+          "path": "./icons/light/gradle.svg"
+        },
+        "graphql": {
+          "path": "./icons/light/graphql.svg"
+        },
+        "groovy": {
+          "path": "./icons/light/groovy.svg"
+        },
+        "gruntfile": {
+          "path": "./icons/light/gruntfile.svg"
+        },
+        "gtk": {
+          "path": "./icons/light/gtk.svg"
+        },
+        "gulpfile": {
+          "path": "./icons/light/gulpfile.svg"
+        },
+        "h": {
+          "path": "./icons/light/h.svg"
+        },
+        "haml": {
+          "path": "./icons/light/haml.svg"
+        },
+        "haxe": {
+          "path": "./icons/light/haxe.svg"
+        },
+        "hbs": {
+          "path": "./icons/light/hbs.svg"
+        },
+        "hexadecimal": {
+          "path": "./icons/light/hexadecimal.svg"
+        },
+        "hs": {
+          "path": "./icons/light/hs.svg"
+        },
+        "html": {
+          "path": "./icons/light/html.svg"
+        },
+        "http": {
+          "path": "./icons/light/http.svg"
+        },
+        "huff": {
+          "path": "./icons/light/huff.svg"
+        },
+        "hurl": {
+          "path": "./icons/light/hurl.svg"
+        },
+        "hypridle": {
+          "path": "./icons/light/hypridle.svg"
+        },
+        "i18nconfig": {
+          "path": "./icons/light/i18nconfig.svg"
+        },
+        "i3": {
+          "path": "./icons/light/i3.svg"
+        },
+        "ical": {
+          "path": "./icons/light/ical.svg"
+        },
+        "ico": {
+          "path": "./icons/light/ico.svg"
+        },
+        "image": {
+          "path": "./icons/light/image.svg"
+        },
+        "importconfiguration": {
+          "path": "./icons/light/importconfiguration.svg"
+        },
+        "indextheme": {
+          "path": "./icons/light/indextheme.svg"
+        },
+        "info": {
+          "path": "./icons/light/info.svg"
+        },
+        "ionic": {
+          "path": "./icons/light/ionic.svg"
+        },
+        "jar": {
+          "path": "./icons/light/jar.svg"
+        },
+        "javascriptreactspec": {
+          "path": "./icons/light/javascriptreactspec.svg"
+        },
+        "jenkins": {
+          "path": "./icons/light/jenkins.svg"
+        },
+        "jl": {
+          "path": "./icons/light/jl.svg"
+        },
+        "js": {
+          "path": "./icons/light/js.svg"
+        },
+        "jsx": {
+          "path": "./icons/light/jsx.svg"
+        },
+        "justfile": {
+          "path": "./icons/light/justfile.svg"
+        },
+        "jwm": {
+          "path": "./icons/light/jwm.svg"
+        },
+        "kbx": {
+          "path": "./icons/light/kbx.svg"
+        },
+        "kdb": {
+          "path": "./icons/light/kdb.svg"
+        },
+        "kdenlive": {
+          "path": "./icons/light/kdenlive.svg"
+        },
+        "kicad": {
+          "path": "./icons/light/kicad.svg"
+        },
+        "kotlin": {
+          "path": "./icons/light/kotlin.svg"
+        },
+        "kotlinscript": {
+          "path": "./icons/light/kotlinscript.svg"
+        },
+        "krita": {
+          "path": "./icons/light/krita.svg"
+        },
+        "labview": {
+          "path": "./icons/light/labview.svg"
+        },
+        "less": {
+          "path": "./icons/light/less.svg"
+        },
+        "libreofficecalc": {
+          "path": "./icons/light/libreofficecalc.svg"
+        },
+        "libreofficeformula": {
+          "path": "./icons/light/libreofficeformula.svg"
+        },
+        "libreofficegraphics": {
+          "path": "./icons/light/libreofficegraphics.svg"
+        },
+        "libreofficeimpress": {
+          "path": "./icons/light/libreofficeimpress.svg"
+        },
+        "libreofficewriter": {
+          "path": "./icons/light/libreofficewriter.svg"
+        },
+        "license": {
+          "path": "./icons/light/license.svg"
+        },
+        "license_2": {
+          "path": "./icons/light/license_2.svg"
+        },
+        "linuxkernelobject": {
+          "path": "./icons/light/linuxkernelobject.svg"
+        },
+        "liquid": {
+          "path": "./icons/light/liquid.svg"
+        },
+        "localization": {
+          "path": "./icons/light/localization.svg"
+        },
+        "lock": {
+          "path": "./icons/light/lock.svg"
+        },
+        "log": {
+          "path": "./icons/light/log.svg"
+        },
+        "logos": {
+          "path": "./icons/light/logos.svg"
+        },
+        "lua": {
+          "path": "./icons/light/lua.svg"
+        },
+        "luacheckrc": {
+          "path": "./icons/light/luacheckrc.svg"
+        },
+        "luau": {
+          "path": "./icons/light/luau.svg"
+        },
+        "lxdeconfigfile": {
+          "path": "./icons/light/lxdeconfigfile.svg"
+        },
+        "lxqtconfigfile": {
+          "path": "./icons/light/lxqtconfigfile.svg"
+        },
+        "magnet": {
+          "path": "./icons/light/magnet.svg"
+        },
+        "mailmap": {
+          "path": "./icons/light/mailmap.svg"
+        },
+        "makefile": {
+          "path": "./icons/light/makefile.svg"
+        },
+        "markdown": {
+          "path": "./icons/light/markdown.svg"
+        },
+        "material": {
+          "path": "./icons/light/material.svg"
+        },
+        "maven": {
+          "path": "./icons/light/maven.svg"
+        },
+        "md": {
+          "path": "./icons/light/md.svg"
+        },
+        "md5": {
+          "path": "./icons/light/md5.svg"
+        },
+        "mdx": {
+          "path": "./icons/light/mdx.svg"
+        },
+        "mint": {
+          "path": "./icons/light/mint.svg"
+        },
+        "ml": {
+          "path": "./icons/light/ml.svg"
+        },
+        "mojo": {
+          "path": "./icons/light/mojo.svg"
+        },
+        "motoko": {
+          "path": "./icons/light/motoko.svg"
+        },
+        "mp4": {
+          "path": "./icons/light/mp4.svg"
+        },
+        "mpegaudiolayeriii": {
+          "path": "./icons/light/mpegaudiolayeriii.svg"
+        },
+        "mpv": {
+          "path": "./icons/light/mpv.svg"
+        },
+        "nano": {
+          "path": "./icons/light/nano.svg"
+        },
+        "nextconfigcjs": {
+          "path": "./icons/light/nextconfigcjs.svg"
+        },
+        "nim": {
+          "path": "./icons/light/nim.svg"
+        },
+        "nix": {
+          "path": "./icons/light/nix.svg"
+        },
+        "node": {
+          "path": "./icons/light/node.svg"
+        },
+        "nodemodules": {
+          "path": "./icons/light/nodemodules.svg"
+        },
+        "norg": {
+          "path": "./icons/light/norg.svg"
+        },
+        "notebook": {
+          "path": "./icons/light/notebook.svg"
+        },
+        "npmignore": {
+          "path": "./icons/light/npmignore.svg"
+        },
+        "nushell": {
+          "path": "./icons/light/nushell.svg"
+        },
+        "nuxtconfig": {
+          "path": "./icons/light/nuxtconfig.svg"
+        },
+        "objectivec": {
+          "path": "./icons/light/objectivec.svg"
+        },
+        "odin": {
+          "path": "./icons/light/odin.svg"
+        },
+        "openscad": {
+          "path": "./icons/light/openscad.svg"
+        },
+        "orgmode": {
+          "path": "./icons/light/orgmode.svg"
+        },
+        "out": {
+          "path": "./icons/light/out.svg"
+        },
+        "packedresource": {
+          "path": "./icons/light/packedresource.svg"
+        },
+        "pdf": {
+          "path": "./icons/light/pdf.svg"
+        },
+        "php": {
+          "path": "./icons/light/php.svg"
+        },
+        "pkgbuild": {
+          "path": "./icons/light/pkgbuild.svg"
+        },
+        "pl": {
+          "path": "./icons/light/pl.svg"
+        },
+        "platformio": {
+          "path": "./icons/light/platformio.svg"
+        },
+        "playwrightconfig": {
+          "path": "./icons/light/playwrightconfig.svg"
+        },
+        "pnpmfile": {
+          "path": "./icons/light/pnpmfile.svg"
+        },
+        "ppt": {
+          "path": "./icons/light/ppt.svg"
+        },
+        "precommitconfig": {
+          "path": "./icons/light/precommitconfig.svg"
+        },
+        "prefab": {
+          "path": "./icons/light/prefab.svg"
+        },
+        "prettierignore": {
+          "path": "./icons/light/prettierignore.svg"
+        },
+        "prisma": {
+          "path": "./icons/light/prisma.svg"
+        },
+        "procfile": {
+          "path": "./icons/light/procfile.svg"
+        },
+        "prolog": {
+          "path": "./icons/light/prolog.svg"
+        },
+        "prusaslicer": {
+          "path": "./icons/light/prusaslicer.svg"
+        },
+        "psb": {
+          "path": "./icons/light/psb.svg"
+        },
+        "psscriptfile": {
+          "path": "./icons/light/psscriptfile.svg"
+        },
+        "pub": {
+          "path": "./icons/light/pub.svg"
+        },
+        "pxd": {
+          "path": "./icons/light/pxd.svg"
+        },
+        "py": {
+          "path": "./icons/light/py.svg"
+        },
+        "pyc": {
+          "path": "./icons/light/pyc.svg"
+        },
+        "qt": {
+          "path": "./icons/light/qt.svg"
+        },
+        "query": {
+          "path": "./icons/light/query.svg"
+        },
+        "r": {
+          "path": "./icons/light/r.svg"
+        },
+        "racket": {
+          "path": "./icons/light/racket.svg"
+        },
+        "rasi": {
+          "path": "./icons/light/rasi.svg"
+        },
+        "razorpage": {
+          "path": "./icons/light/razorpage.svg"
+        },
+        "razorpage_2": {
+          "path": "./icons/light/razorpage_2.svg"
+        },
+        "rb": {
+          "path": "./icons/light/rb.svg"
+        },
+        "readme": {
+          "path": "./icons/light/readme.svg"
+        },
+        "rescript": {
+          "path": "./icons/light/rescript.svg"
+        },
+        "rescriptinterface": {
+          "path": "./icons/light/rescriptinterface.svg"
+        },
+        "rlib": {
+          "path": "./icons/light/rlib.svg"
+        },
+        "rmd": {
+          "path": "./icons/light/rmd.svg"
+        },
+        "robotstxt": {
+          "path": "./icons/light/robotstxt.svg"
+        },
+        "rproj": {
+          "path": "./icons/light/rproj.svg"
+        },
+        "rs": {
+          "path": "./icons/light/rs.svg"
+        },
+        "rss": {
+          "path": "./icons/light/rss.svg"
+        },
+        "sass": {
+          "path": "./icons/light/sass.svg"
+        },
+        "sbt": {
+          "path": "./icons/light/sbt.svg"
+        },
+        "scheme": {
+          "path": "./icons/light/scheme.svg"
+        },
+        "security": {
+          "path": "./icons/light/security.svg"
+        },
+        "sig": {
+          "path": "./icons/light/sig.svg"
+        },
+        "sln": {
+          "path": "./icons/light/sln.svg"
+        },
+        "solidity": {
+          "path": "./icons/light/solidity.svg"
+        },
+        "specjs": {
+          "path": "./icons/light/specjs.svg"
+        },
+        "spects": {
+          "path": "./icons/light/spects.svg"
+        },
+        "srcinfo": {
+          "path": "./icons/light/srcinfo.svg"
+        },
+        "staticlibraryarchive": {
+          "path": "./icons/light/staticlibraryarchive.svg"
+        },
+        "storybookjavascript": {
+          "path": "./icons/light/storybookjavascript.svg"
+        },
+        "styl": {
+          "path": "./icons/light/styl.svg"
+        },
+        "sublime": {
+          "path": "./icons/light/sublime.svg"
+        },
+        "svelte": {
+          "path": "./icons/light/svelte.svg"
+        },
+        "svg": {
+          "path": "./icons/light/svg.svg"
+        },
+        "swift": {
+          "path": "./icons/light/swift.svg"
+        },
+        "systemverilog": {
+          "path": "./icons/light/systemverilog.svg"
+        },
+        "tailwindconfig": {
+          "path": "./icons/light/tailwindconfig.svg"
+        },
+        "taskfileconfig": {
+          "path": "./icons/light/taskfileconfig.svg"
+        },
+        "tcl": {
+          "path": "./icons/light/tcl.svg"
+        },
+        "templ": {
+          "path": "./icons/light/templ.svg"
+        },
+        "terminal": {
+          "path": "./icons/light/terminal.svg"
+        },
+        "terraform": {
+          "path": "./icons/light/terraform.svg"
+        },
+        "tex": {
+          "path": "./icons/light/tex.svg"
+        },
+        "tfvars": {
+          "path": "./icons/light/tfvars.svg"
+        },
+        "thunderbird": {
+          "path": "./icons/light/thunderbird.svg"
+        },
+        "tmux": {
+          "path": "./icons/light/tmux.svg"
+        },
+        "toml": {
+          "path": "./icons/light/toml.svg"
+        },
+        "tsconfig": {
+          "path": "./icons/light/tsconfig.svg"
+        },
+        "tsx": {
+          "path": "./icons/light/tsx.svg"
+        },
+        "twig": {
+          "path": "./icons/light/twig.svg"
+        },
+        "txt": {
+          "path": "./icons/light/txt.svg"
+        },
+        "typescript": {
+          "path": "./icons/light/typescript.svg"
+        },
+        "typescriptdeclaration": {
+          "path": "./icons/light/typescriptdeclaration.svg"
+        },
+        "typoscriptconfig": {
+          "path": "./icons/light/typoscriptconfig.svg"
+        },
+        "typst": {
+          "path": "./icons/light/typst.svg"
+        },
+        "ui": {
+          "path": "./icons/light/ui.svg"
+        },
+        "unity": {
+          "path": "./icons/light/unity.svg"
+        },
+        "vagrantfile": {
+          "path": "./icons/light/vagrantfile.svg"
+        },
+        "vala": {
+          "path": "./icons/light/vala.svg"
+        },
+        "vercel": {
+          "path": "./icons/light/vercel.svg"
+        },
+        "vim": {
+          "path": "./icons/light/vim.svg"
+        },
+        "viteconfig": {
+          "path": "./icons/light/viteconfig.svg"
+        },
+        "vitestconfig": {
+          "path": "./icons/light/vitestconfig.svg"
+        },
+        "vlang": {
+          "path": "./icons/light/vlang.svg"
+        },
+        "vlc": {
+          "path": "./icons/light/vlc.svg"
+        },
+        "vue": {
+          "path": "./icons/light/vue.svg"
+        },
+        "wasm": {
+          "path": "./icons/light/wasm.svg"
+        },
+        "webgpushadinglanguage": {
+          "path": "./icons/light/webgpushadinglanguage.svg"
+        },
+        "webmanifest": {
+          "path": "./icons/light/webmanifest.svg"
+        },
+        "webpack": {
+          "path": "./icons/light/webpack.svg"
+        },
+        "weston": {
+          "path": "./icons/light/weston.svg"
+        },
+        "wranglerconfig": {
+          "path": "./icons/light/wranglerconfig.svg"
+        },
+        "xaml": {
+          "path": "./icons/light/xaml.svg"
+        },
+        "xauthority": {
+          "path": "./icons/light/xauthority.svg"
+        },
+        "xls": {
+          "path": "./icons/light/xls.svg"
+        },
+        "xml": {
+          "path": "./icons/light/xml.svg"
+        },
+        "xmonad": {
+          "path": "./icons/light/xmonad.svg"
+        },
+        "xpi": {
+          "path": "./icons/light/xpi.svg"
+        },
+        "xslt": {
+          "path": "./icons/light/xslt.svg"
+        },
+        "xul": {
+          "path": "./icons/light/xul.svg"
+        },
+        "xz": {
+          "path": "./icons/light/xz.svg"
+        },
+        "yaml": {
+          "path": "./icons/light/yaml.svg"
+        },
+        "zig": {
+          "path": "./icons/light/zig.svg"
+        },
+        "zigobjectnotation": {
+          "path": "./icons/light/zigobjectnotation.svg"
+        },
+        "zsh": {
+          "path": "./icons/light/zsh.svg"
+        }
+      }
+    }
+  ]
+}
