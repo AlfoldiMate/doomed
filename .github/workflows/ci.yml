@@ -13,6 +13,8 @@ jobs:
       - uses: actions/checkout@v7
 
       - uses: astral-sh/setup-uv@v10.2.0  # no moving major tag upstream
+        with:
+          cache-dependency-glob: build/*.py  # deps are inline script metadata
 
       # Nerd Fonts and nvim-web-devicons are pinned in generate.py. No
       # restore-keys: cached files keep their names across pins, so a partial
