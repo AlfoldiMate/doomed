@@ -3,11 +3,11 @@
 # requires-python = ">=3.11"
 # dependencies = ["fonttools>=4.50"]
 # ///
-"""Generate the Doomchad Zed theme and icon theme.
+"""Generate the Doomed Zed theme and icon theme (NvChad doomchad for Zed).
 
     uv run build/generate.py
 
-Writes theme/themes/doomchad.json, icons/icon_themes/doomchad-icons.json and
+Writes theme/themes/doomed.json, icons/icon_themes/doomed-icons.json and
 icons/icons/{dark,light}/*.svg. Upstream sources are downloaded into
 build/.cache on first run and pinned below.
 """
@@ -29,12 +29,12 @@ from fontTools.ttLib import TTFont
 ROOT = Path(__file__).resolve().parent.parent
 CACHE = ROOT / "build" / ".cache"
 
-THEME_FAMILY = "Doomchad"
-THEME_DARK = "Doomchad"
-THEME_LIGHT = "Doomchad Light"
-ICONS_FAMILY = "Doomchad Icons"
-ICONS_DARK = "Doomchad Icons"
-ICONS_LIGHT = "Doomchad Icons Light"
+THEME_FAMILY = "Doomed"
+THEME_DARK = "Doomed"
+THEME_LIGHT = "Doomed Light"
+ICONS_FAMILY = "Doomed Icons"
+ICONS_DARK = "Doomed Icons"
+ICONS_LIGHT = "Doomed Icons Light"
 AUTHOR = "Mate Alfoldi"
 
 NERD_FONTS = "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/NerdFontsSymbolsOnly.tar.xz"
@@ -546,7 +546,9 @@ def build_icons():
             # devicons matches filenames case-insensitively; Zed does not,
             # so add the spellings people actually use (Makefile, LICENSE, README.md)
             stem, dot, rest = fname.partition(".")
-            for variant in (fname[:1].upper() + fname[1:], stem.upper() + dot + rest):
+            # devicons' name is often the canonical spelling (CMakeLists.txt)
+            canonical = name + dot + rest if name.lower() == stem.lower() else fname
+            for variant in (fname[:1].upper() + fname[1:], stem.upper() + dot + rest, canonical):
                 stems.setdefault(variant, ident)
 
     specials = {
@@ -587,7 +589,7 @@ def build_icons():
                           | {ident: {"path": p(ident)} for ident in sorted(icons.values())},
         })
 
-    write_json(ROOT / "icons" / "icon_themes" / "doomchad-icons.json", {
+    write_json(ROOT / "icons" / "icon_themes" / "doomed-icons.json", {
         "$schema": "https://zed.dev/schema/icon_themes/v0.3.0.json",
         "name": ICONS_FAMILY,
         "author": AUTHOR,
@@ -628,7 +630,7 @@ def write_json(path, data):
 
 
 def main():
-    write_json(ROOT / "theme" / "themes" / "doomchad.json", {
+    write_json(ROOT / "theme" / "themes" / "doomed.json", {
         "$schema": "https://zed.dev/schema/themes/v0.2.0.json",
         "name": THEME_FAMILY,
         "author": AUTHOR,

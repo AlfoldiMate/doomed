@@ -1,7 +1,7 @@
-id = "doomchad-theme"
-name = "Doomchad"
+id = "doomed-theme"
+name = "Doomed"
 version = "0.1.0"
 schema_version = 1
 authors = ["Mate Alfoldi <alfoldi.mate@gmail.com>"]
-description = "NvChad's doomchad (Doom One) colours for Zed, with a mirrored light variant."
-repository = "https://github.com/AlfoldiMate/doomzed"
+description = "NvChad's doomchad (Doom One) for Zed: NvChad's syntax colours and UI layering, dark and light."
+repository = "https://github.com/AlfoldiMate/doomed"

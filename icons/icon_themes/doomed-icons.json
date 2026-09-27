@@ -1,10 +1,10 @@
 {
   "$schema": "https://zed.dev/schema/icon_themes/v0.3.0.json",
-  "name": "Doomchad Icons",
+  "name": "Doomed Icons",
   "author": "Mate Alfoldi",
   "themes": [
     {
-      "name": "Doomchad Icons",
+      "name": "Doomed Icons",
       "appearance": "dark",
       "directory_icons": {
         "collapsed": "./icons/dark/_folder.svg",
@@ -90,6 +90,7 @@
         "CANTORRC": "cantorrc",
         "CHECKHEALTH": "checkhealth",
         "CMAKELISTS.txt": "cmake",
+        "CMakeLists.txt": "cmake",
         "CODE_OF_CONDUCT": "codeofconduct",
         "CODE_OF_CONDUCT.md": "codeofconduct",
         "COMMITLINT.config.js": "commitlintconfig",
@@ -215,6 +216,7 @@
         "KDEGLOBALS": "cantorrc",
         "KDENLIVE-LAYOUTSRC": "kdenlive",
         "KDENLIVERC": "kdenlive",
+        "KDEglobals": "cantorrc",
         "KRITADISPLAYRC": "krita",
         "KRITARC": "krita",
         "Kalgebrarc": "cantorrc",
@@ -332,6 +334,7 @@
         "TMUX.conf": "tmux",
         "TMUX.conf.local": "tmux",
         "TSCONFIG.json": "tsconfig",
+        "TSConfig.json": "tsconfig",
         "Tailwind.config.js": "tailwindconfig",
         "Tailwind.config.mjs": "tailwindconfig",
         "Tailwind.config.ts": "tailwindconfig",
@@ -1990,7 +1993,7 @@
       }
     },
     {
-      "name": "Doomchad Icons Light",
+      "name": "Doomed Icons Light",
       "appearance": "light",
       "directory_icons": {
         "collapsed": "./icons/light/_folder.svg",
@@ -2076,6 +2079,7 @@
         "CANTORRC": "cantorrc",
         "CHECKHEALTH": "checkhealth",
         "CMAKELISTS.txt": "cmake",
+        "CMakeLists.txt": "cmake",
         "CODE_OF_CONDUCT": "codeofconduct",
         "CODE_OF_CONDUCT.md": "codeofconduct",
         "COMMITLINT.config.js": "commitlintconfig",
@@ -2201,6 +2205,7 @@
         "KDEGLOBALS": "cantorrc",
         "KDENLIVE-LAYOUTSRC": "kdenlive",
         "KDENLIVERC": "kdenlive",
+        "KDEglobals": "cantorrc",
         "KRITADISPLAYRC": "krita",
         "KRITARC": "krita",
         "Kalgebrarc": "cantorrc",
@@ -2318,6 +2323,7 @@
         "TMUX.conf": "tmux",
         "TMUX.conf.local": "tmux",
         "TSCONFIG.json": "tsconfig",
+        "TSConfig.json": "tsconfig",
         "Tailwind.config.js": "tailwindconfig",
         "Tailwind.config.mjs": "tailwindconfig",
         "Tailwind.config.ts": "tailwindconfig",
