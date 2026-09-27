@@ -64,10 +64,11 @@ Everything in them is generated. To tweak the palette, edit `DARK_30` / `DARK_16
 
 ```sh
 uv run build/generate.py   # themes, icon theme, SVGs, notices
+uv run build/validate.py   # Zed schemas, icon paths, licences, versions
 uv run build/showcase.py   # README images, after new screenshots
 ```
 
-The script pins its upstream sources, Nerd Fonts v3.5.1 and an nvim-web-devicons commit, and caches them in `build/.cache`.
+The script pins its upstream sources, Nerd Fonts v3.5.1 and an nvim-web-devicons commit, and caches them in `build/.cache`. CI regenerates everything on each push and fails if the committed files differ or don't validate.
 
 To try local changes, run `zed: install dev extension` in Zed and pick `theme/`, then `icons/`.
 
