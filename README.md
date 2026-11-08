@@ -18,7 +18,7 @@
 
 ## Why Doomed
 
-**It's doomchad, not another Doom One.** Colours come straight from NvChad's [base46](https://github.com/NvChad/base46) `doomchad.lua`, including the quirks that make it recognisable: purple functions, blue keywords, yellow brackets, blue struct fields. Syntax follows base46's tree-sitter mapping, translated to Zed's highlight captures.
+**It's doomchad, not another Doom One.** Colours come straight from NvChad's [base46](https://github.com/NvChad/base46) `doomchad.lua`, including the quirks that make it recognisable: purple functions, blue keywords, yellow brackets. Syntax follows base46's tree-sitter mapping, translated to Zed's highlight captures, except where base46 gives two neighbouring roles the same colour: struct fields are bright text instead of keyword blue, constructors and enum cases are teal instead of sky blue, attributes and decorators are pink instead of type yellow, and brackets are a receded yellow so types stand out.
 
 **The whole window, not just the editor.** It keeps NvChad's layering: a darker file tree and pickers, the tab strip one step lighter, and a separate statusline. Zed's vim mode badge takes NvChad's statusline colours: blue for normal, purple for insert, green for visual, orange for replace.
 

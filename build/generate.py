@@ -184,6 +184,16 @@ def make_light():
     # base0C and base0E are both sky blue in doomchad; on a light ground they
     # collapse into one colour, so constructors/escapes take doom's cyan
     b["base0C"] = mirror_accent(DARK_30["cyan"], bg, 4.6)
+    # the contrast floor pulls every accent to about the same lightness, so
+    # neighbours that dark separates by lightness need another axis here:
+    # teal (constructors) leans green, away from keyword blue, and yellow
+    # (types) goes darker than orange (numbers, self, lifetimes)
+    L, C, _ = oklch(c["teal"])
+    c["teal"] = darken_to(from_oklch(L, C, 182), bg, 4.2)
+    L, C, _ = oklch(b["base0A"])
+    c["yellow"] = b["base0A"] = darken_to(from_oklch(L, C, 80), bg, 6.5)
+    L, C, _ = oklch(b["base09"])
+    b["base09"] = darken_to(from_oklch(L, C, 50), bg, 4.6)
     return c, b
 
 
@@ -364,28 +374,28 @@ def build_theme(c, b, t):
 
     # syntax: base46 treesitter.lua + doomchad polish_hl
     style["syntax"] = {
-        "attribute":               s(b["base0A"]),
+        "attribute":               s(c["pink"]),          # off type-yellow and function-purple
         "attribute.jsx":           s(b["base08"]),         # @tag.attribute
         "boolean":                 s(b["base09"]),
         "comment":                 s(c["comment"]),
         "comment.doc":             s(c["comment_doc"]),
         "constant":                s(b["base09"]),
         "constant.builtin":        s(b["base09"]),
-        "constructor":             s(b["base0C"]),
+        "constructor":             s(c["teal"]),          # off keyword-blue
         "embedded":                s(b["base05"]),
         "emphasis":                s(b["base09"], "italic"),
         "emphasis.strong":         s(b["base09"], weight=700),
         "enum":                    s(b["base0A"]),
         "function":                s(b["base0D"]),
         "function.builtin":        s(b["base0D"]),
-        "function.decorator":      s(b["base0A"]),
+        "function.decorator":      s(c["pink"]),          # = attribute
         "function.special":        s(b["base08"]),         # macros → @function.macro
         "hint":                    s(c["light_grey"]),
         "keyword":                 s(b["base0E"]),
         "keyword.import":          s(b["base0D"]),         # @keyword.import → Include
         "keyword.directive":       s(b["base0A"]),
         "label":                   s(b["base0A"]),
-        "lifetime":                s(b["base0A"]),
+        "lifetime":                s(b["base09"]),        # off type-yellow
         "link_text":               s(b["base0C"]),
         "link_uri":                s(b["base09"]),
         "namespace":               s(b["base08"]),         # @module
@@ -394,10 +404,10 @@ def build_theme(c, b, t):
         "predictive":              s(c["grey_fg2"], "italic"),
         "preproc":                 s(b["base0A"]),
         "primary":                 s(b["base05"]),
-        "property":                s(c["blue"]),           # doomchad @variable.member
+        "property":                s(b["base07"]),        # off keyword-blue, brighter than doc comments
         "property.json_key":       s(b["base08"]),         # @property
         "punctuation":             s(b["base0F"]),
-        "punctuation.bracket":     s(c["yellow"]),         # doomchad polish
+        "punctuation.bracket":     s(mix(c["yellow"], c["black"], .6)),  # doomchad yellow, receded
         "punctuation.delimiter":   s(b["base0F"]),
         "punctuation.list_marker": s(b["base08"]),
         "punctuation.markup":      s(b["base0F"]),
@@ -417,7 +427,7 @@ def build_theme(c, b, t):
         "variable":                s(b["base05"]),
         "variable.parameter":      s(b["base08"]),
         "variable.special":        s(b["base09"]),         # self/this → @variable.builtin
-        "variant":                 s(b["base09"]),
+        "variant":                 s(c["teal"]),          # = constructor
         "diff.plus":               s(c["green"]),
         "diff.minus":              s(c["red"]),
     }
